@@ -1,7 +1,7 @@
 #!python
 #
 
-# import modules used here -- sys is a very standard one
+# import modules used here -- sys is a very  standard one
 import sys, argparse, logging
 
 # Gather our code in a main() function
