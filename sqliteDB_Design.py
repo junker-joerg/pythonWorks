@@ -4,6 +4,7 @@
 # git push -u origin master
 # ... irgendwas ...noch was 
 # git remote add origin 'https://github.com/junker-joerg/pythonWorks'
+#... hier ein neuer Kommentar
 
 import sqlite3
 import os
@@ -15,7 +16,7 @@ def db_connect(db_path=DEFAULT_PATH):
     con = sqlite3.connect(db_path)
     return con
 
-con = db_connect() # connect to the database
+con = db_connect('mkDevDB.sqlite3') # connect to the database
 cur = con.cursor() # instantiate a cursor obj
 products_sql = """
     CREATE TABLE products (
