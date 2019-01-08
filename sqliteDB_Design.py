@@ -16,7 +16,7 @@ def db_connect(db_path=DEFAULT_PATH):
     con = sqlite3.connect(db_path)
     return con
 
-con = db_connect('mkDevDB.sqlite3') # connect to the database
+con = db_connect('mkDevDB.sqlite3) # connect to the database
 cur = con.cursor() # instantiate a cursor obj
 products_sql = """
     CREATE TABLE products (
