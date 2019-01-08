@@ -5,6 +5,7 @@
 # ... irgendwas ...noch was 
 # git remote add origin 'https://github.com/junker-joerg/pythonWorks'
 #... hier ein neuer Kommentar
+# neuer Kommentar auf PC Wohnzimmer geschrieben
 
 import sqlite3
 import os
@@ -18,6 +19,7 @@ def db_connect(db_path=DEFAULT_PATH):
 
 con = db_connect('mkDevDB.sqlite3) # connect to the database
 cur = con.cursor() # instantiate a cursor obj
+
 products_sql = """
     CREATE TABLE products (
     id integer PRIMARY KEY,
