@@ -1,5 +1,13 @@
 """
-Dokumentation nachziehen!!!   
+Natural Language Processing CIO Tool - 2019 Dr. Martin Köhler
+
+Python Programm zur Auswertung beliebiger (PDF/ PPT) Dateien aus den  Projekten im CIO Umfeld
+
+Analyse der Ergebnisse (eines Corpus) mit Natural Language Processing Werkzeugen mit folgenden Ziele
+
+1. Es wird eine Liste der zu lesenden Dateien-Namen in einem Verzeichnis erstellt
+2. Die Liste wird sequenziell eingelesen und die Texte extrahiert
+ 
 """
 import os
 import logging
@@ -8,12 +16,21 @@ from PyPDF2 import PdfFileReader
 import re
 # TODO: alles Statusinfos in Logfile schreiben
 # TODO: dafür Modul Logger nutzen
+# * Wichtig CLIPS.patterns ausprobieren - ggf. kann das schneller gehen
+# ! Achtung bislang wird NLTK auch noch nicht geladen
+# TODO: TEST es gibt keinerlei Textfunktionen 
+# TODO: https://adfinis-sygroup.ch/blog/testing-mit-pytest/
+# 
 """
 clean_up_a(textinput): möglichst allen Müll raus
 https://codereview.stackexchange.com/questions/186614/text-cleaning-script-producing-lowercase-words-with-minimal-punctuation
 """
 
 def cleaning2(text):
+    """
+    Funktion aus Stackoverflow - REGEX ist eigenes Thema
+        :param text: 
+    """
     # ? die Wörter sind nicht zusammengezogen
     text = re.sub(r'\b(?:(?:https?|ftp)://)?\w[\w-]*(?:\.[\w-]+)+\S*(?<![.,])', ' ', text.lower())
     words = re.findall(r'[a-z.,]+', text)
@@ -40,15 +57,17 @@ def text_extractor(path):
     # decoding-Problem! ... neu lernen!! - wie wird aus dem Output ein String?
 
 if __name__ == '__main__': # liste aller PDF im Verzeichnis
+    # ! Den Logger im Zweifel in <main> starten - aber ggf. kann man das auch in eine Funktion auslagern
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')	
-    logHandler = logging.FileHandler('FS_DB_strategy_NLP.log', mode="a")
+    logHandler = logging.FileHandler('NLP_CIO_Tool.log', mode="a")
     logHandler.setFormatter(formatter)
     logger.addHandler(logHandler)
     logger.info("Starte Logging")
 
-    files = [x for x in os.listdir() if x.endswith(".pdf")]
+    files = [x for x in os.listdir() if x.endswith(".pdf")] # ! bislang wird hier noch eine Liste der PDFs generiert - PPT ist noch offen
+    # TODO: Klären, was das bessere Zielformat ist und das optimale Speicherformat a) sqlite, b) .txt c) csc (tabbed)
    # print(files)
     logger.info("Starte Logging")   
     file = open("pdf_txt.txt","w") # Ergebnis einfach in Datei
