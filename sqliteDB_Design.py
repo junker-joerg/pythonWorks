@@ -17,15 +17,14 @@ def db_connect(db_path=DEFAULT_PATH):
     con = sqlite3.connect(db_path)
     return con
 
-con = db_connect('mkDevDB.sqlite3) # connect to the database
+con = db_connect('mkDevDB.sqlite3') # connect to the database
 cur = con.cursor() # instantiate a cursor obj
 
-products_sql = """
-    CREATE TABLE products (
-    id integer PRIMARY KEY,
-    name text NOT NULL,
-    price real NOT NULL)"""
-cur.execute(products_sql)
+
+
+#products_sql = """CREATE TABLE products (id integer PRIMARY KEY, name text NOT NULL, price real NOT NULL)"""
+#cur.execute(products_sql)
+
 
 product_sql = "INSERT INTO products (name, price) VALUES (?, ?)"
 cur.execute(product_sql, ('Introduction to Combinatorics', 7.99))
