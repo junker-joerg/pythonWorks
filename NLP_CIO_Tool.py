@@ -1,3 +1,8 @@
+
+# ! git push https://github.com/junker-joerg/pythonworks [jeden Abend]
+# ! ... die Automatisierung dazu verstehen
+# ! ... Produktion / Entwicklungs-Branch aufziehen
+
 """
 Natural Language Processing CIO Tool - 2019 Dr. Martin Köhler
 
@@ -7,7 +12,11 @@ Analyse der Ergebnisse (eines Corpus) mit Natural Language Processing Werkzeugen
 
 1. Es wird eine Liste der zu lesenden Dateien-Namen in einem Verzeichnis erstellt
 2. Die Liste wird sequenziell eingelesen und die Texte extrahiert
- 
+3. 
+
+NLTK                            => Einfaches Textcleaning
+Einfache Sentimentanalyse       => geht mit NLTK
+Topic-Mining                    => hier ggf. GENSIM nutzen
 """
 import os
 import logging
