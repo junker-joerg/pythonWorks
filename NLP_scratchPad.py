@@ -26,6 +26,5 @@ def ziel_db_oeffnen():
 
 if __name__ == "__main__":
     # TODO: https://adfinis-sygroup.ch/blog/testing-mit-pytest/ für Testing
-    ziel_db_oeffnen()
+    # ziel_db_oeffnen() * läuft!
     print("ENDE")
-    
