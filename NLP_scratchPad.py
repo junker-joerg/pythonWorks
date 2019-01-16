@@ -1,4 +1,5 @@
 #!python
+# -*- coding: utf-8 -*-
 # ! git push https://github.com/junker-joerg/pythonworks
 # ! Die Testfunktion einfach runterschreiben - dann in eine Funktion <def> reinkopieren
 # oder besser: Test in eine Funktion schreiben und in Main reinkopieren
@@ -6,6 +7,8 @@
 import os
 import sys
 import sqlite3
+import unicodedata
+import re
 
 def ziel_db_oeffnen():
     # wenn die DB NLP_CIO_TEXT_DB.sqlite3 existiert:
@@ -28,6 +31,7 @@ def schreibe_Texte_in_Tabelle():
     # cur.execute(product_sql, ('Introduction to Combinatorics', 7.99))
     # cur.execute("insert into contacts (name, phone, email) values (?, ?, ?)", (name, phone, email))
     # cur.executemany("insert into contacts (name, phone, email) values (?, ?, ?)", (name, phone, email))
+    # https://stackoverflow.com/questions/44678695/how-to-insert-variable-to-database-table-sqlite3-python
     """
     def insertData(self):
         title_Data = self.edit_title.text()
@@ -57,8 +61,55 @@ def schreibe_Texte_in_Tabelle():
     con.close()
 
 
+def remove_accented_chars(text):
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8', 'ignore')
+    return text
+
+def strip_accents(text):
+    """
+    Strip accents from input String.
+
+    :param text: The input string.
+    :type text: String.
+
+    :returns: The processed String.
+    :rtype: String.
+    """
+    try:
+        text = unicode(text, 'utf-8')
+    except (TypeError, NameError): # unicode is a default on python 3 
+        pass
+    text = unicodedata.normalize('NFD', text)
+    text = text.encode('ascii', 'ignore')
+    text = text.decode("utf-8")
+    return str(text)
+
+def text_to_id(text):
+    """
+    Convert input text to id.
+
+    :param text: The input string.
+    :type text: String.
+
+    :returns: The processed String.
+    :rtype: String.
+    """
+    text = strip_accents(text.lower())
+    text = re.sub('[ ]+', '_', text)
+    text = re.sub('[^0-9a-zA-Z_-]', '', text)
+    return text
+
+def mkReTest(text): #  alle Umlaute ersetzen
+    text = re.compile('[^a-zA-Z0-9]')
+    text.subn('_', text)
+    return text
+
+
 if __name__ == "__main__":
     # TODO: https://adfinis-sygroup.ch/blog/testing-mit-pytest/ für Testing
     # ziel_db_oeffnen() # läuft!
-    schreibe_Texte_in_Tabelle()
+    #schreibe_Texte_in_Tabelle()
+    #print(remove_accented_chars("gesch�ftsstrategie  ke zur verf�gung "))
+    #print(text_to_id("gesch�ftsstrategie  ke zur verf�gung "))
+    print(mkReTest((u"Änderung")))
     print("ENDE")

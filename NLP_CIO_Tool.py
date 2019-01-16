@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # ! git push https://github.com/junker-joerg/pythonworks [jeden Abend]
 # ! ... die Automatisierung dazu verstehen
 # ! ... Produktion / Entwicklungs-Branch aufziehen
@@ -42,6 +43,7 @@ from PyPDF2 import PdfFileReader
 import re
 import nltk
 import unicodedata
+import string
 
 
 # TODO: alles Statusinfos in Logfile schreiben
@@ -81,19 +83,24 @@ def ziel_db_oeffnen():
 
 
 def cleaning2(text):
-    """
-    Funktion aus Stackoverflow - REGEX ist eigenes Thema
-        :param text: 
-    """
+
     # ? die Wörter sind nicht zusammengezogen
     #text = re.sub(r'\b(?:(?:https?|ftp)://)?\w[\w-]*(?:\.[\w-]+)+\S*(?<![.,])', ' ', text.lower())
     #words = re.findall(r'[a-z.,]+', text)
     # ! anscheinend muss der ganze Kram re.sub gar nicht sein - 
-    # https://regex101.com/ hier testen und einfach! halten - Umlaute erse
+    # https://regex101.com/ hier testen und einfach! halten
+    umlautDictionary = {u'Ä': 'Ae',
+                    u'Ö': 'Oe',
+                    u'Ü': 'Ue',
+                    u'ä': 'ae',
+                    u'ö': 'oe',
+                    u'ü': 'ue'
+                    }
+    
     text = text.lower()
-    #words = re.findall(r'[a-z.,]+', text)
-    words = re.findall(r'\w+', text)
-    return ' '.join(words)
+    words = (re.findall(r'[a-z.,]+', text))
+    #words = re.findall(r'\w+', text)
+    return (' '.join(words))
  
 def text_extractor(path):
     #  ! erst neues Test-Szenario aufbauen - 3 Dateien in einem Verzeichnis 
@@ -105,11 +112,10 @@ def text_extractor(path):
             num_of_page = num_of_page +  1
             page = pdf.getPage(page)
             text  = page.extractText()
-            # print(text)
-            text = cleaning2(text)
-            
+            #text = cleaning2(text) #! die Clearing-Funktion ist immer noch das problem
+            # ! jetzt steht zwar noch jede Menge Grütze drin - andere Cleansing Funktion nehmen
             text_plain = str(text)
-            print(text_plain)
+            #print(text_plain)
             #print(text.encode("utf-8")) # hier muss der RegEx Code rein
             file.write(text_plain)
             #file.write("\n Seite: %i \n" % num_of_page) # Variablenname nicht ähnlich benennen!
@@ -131,7 +137,7 @@ if __name__ == '__main__': # liste aller PDF im Verzeichnis
     # TODO: Klären, was das bessere Zielformat ist und das optimale Speicherformat a) sqlite, b) .txt c) csc (tabbed)
    # print(files)
     logger.info("Starte Logging")   
-    file = open("pdf_txt.txt","w") # Ergebnis einfach in Datei
+    file = open("pdf_txt.txt","w", encoding="utf-16") # Ergebnis einfach in Datei
     logger.info("Zieldatei geöffnet")
     for eachfile in files:
         #path = eachfile
