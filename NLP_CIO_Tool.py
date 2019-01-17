@@ -45,6 +45,17 @@ import nltk
 import unicodedata
 import string
 
+umlaute_dict = {
+    '\xc3\xa4': 'ae',  # U+00E4	   \xc3\xa4
+    '\xc3\xb6': 'oe',  # U+00F6	   \xc3\xb6
+    '\xc3\xbc': 'ue',  # U+00FC	   \xc3\xbc
+    '\xc3\x84': 'Ae',  # U+00C4	   \xc3\x84
+    '\xc3\x96': 'Oe',  # U+00D6	   \xc3\x96
+    '\xc3\x9c': 'Ue',  # U+00DC	   \xc3\x9c
+    '\xc3\x9f': 'ss',  # U+00DF	   \xc3\x9f
+}
+
+
 
 # TODO: alles Statusinfos in Logfile schreiben
 # TODO: dafür Modul Logger nutzen
@@ -82,8 +93,9 @@ def ziel_db_oeffnen():
         # TODO: diese beiden Felder sind dann aber auch in der Auslesefunktion zu schreiben
 
 
-def cleaning2(text):
-
+def cleaning2(unicode_string):
+    """
+    # ! ACHTUNG: der pdf-reader generiert eine UTF-16 LE Codierung - siehe scratch-Pad 
     # ? die Wörter sind nicht zusammengezogen
     #text = re.sub(r'\b(?:(?:https?|ftp)://)?\w[\w-]*(?:\.[\w-]+)+\S*(?<![.,])', ' ', text.lower())
     #words = re.findall(r'[a-z.,]+', text)
@@ -101,9 +113,16 @@ def cleaning2(text):
     words = (re.findall(r'[a-z.,]+', text))
     #words = re.findall(r'\w+', text)
     return (' '.join(words))
- 
+    """
+    utf8_string = unicode_string.encode('utf-8')
+    for k in umlaute_dict.keys():
+        utf8_string = utf8_string.replace(k, umlaute_dict[k])
+    return utf8_string.decode()
+    
+
 def text_extractor(path):
     #  ! erst neues Test-Szenario aufbauen - 3 Dateien in einem Verzeichnis 
+    # ! hier muss entweder der extrahierte Text in eine Datei oder nltk-Corpus geschrieben werden 
     with open(path, 'rb') as f: # übergebenen Pfad öffnen
         pdf = PdfFileReader(f) # aus Datei Anzahl Seiten lesen
         pages = pdf.getNumPages() # in Schleifenvariable geben
@@ -112,12 +131,13 @@ def text_extractor(path):
             num_of_page = num_of_page +  1
             page = pdf.getPage(page)
             text  = page.extractText()
-            #text = cleaning2(text) #! die Clearing-Funktion ist immer noch das problem
+            #text = cleaning2(text.decode("utf-8")) #! die Clearing-Funktion ist immer noch das problem
             # ! jetzt steht zwar noch jede Menge Grütze drin - andere Cleansing Funktion nehmen
             text_plain = str(text)
             #print(text_plain)
             #print(text.encode("utf-8")) # hier muss der RegEx Code rein
-            file.write(text_plain)
+            #file.write(text_plain)
+            file.write(str(text_plain.encode('utf-8')))
             #file.write("\n Seite: %i \n" % num_of_page) # Variablenname nicht ähnlich benennen!
             #file.write("\n Dateiname: %s \n" % path)
   
@@ -134,7 +154,7 @@ if __name__ == '__main__': # liste aller PDF im Verzeichnis
     logger.info("Starte Logging")
 
     files = [x for x in os.listdir() if x.endswith(".pdf")] # ! bislang wird hier noch eine Liste der PDFs generiert - PPT ist noch offen
-    # TODO: Klären, was das bessere Zielformat ist und das optimale Speicherformat a) sqlite, b) .txt c) csc (tabbed)
+    # TODO: Klären, was das bessere Zielformat ist und das optimale Speicherformat a) sqlite, b) .txt c) csv (tabbed)
    # print(files)
     logger.info("Starte Logging")   
     file = open("pdf_txt.txt","w", encoding="utf-16") # Ergebnis einfach in Datei
