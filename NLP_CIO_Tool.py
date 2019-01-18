@@ -157,7 +157,7 @@ if __name__ == '__main__': # liste aller PDF im Verzeichnis
     # TODO: Klären, was das bessere Zielformat ist und das optimale Speicherformat a) sqlite, b) .txt c) csv (tabbed)
    # print(files)
     logger.info("Starte Logging")   
-    file = open("pdf_txt.txt","w", encoding="utf-16") # Ergebnis einfach in Datei
+    file = open("pdf_txt.txt","w", encoding="utf-8") # Ergebnis einfach in Datei
     logger.info("Zieldatei geöffnet")
     for eachfile in files:
         #path = eachfile

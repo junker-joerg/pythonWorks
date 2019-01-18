@@ -201,8 +201,8 @@ if __name__ == "__main__":
     #print(remove_accented_chars("gesch�ftsstrategie  ke zur verf�gung "))
     #print(text_to_id("gesch�ftsstrategie  ke zur verf�gung "))
     #print(mkReTest((u"Änderung")))
-    roheinlesen()
-    #nltkCorpusReadMK()
+    #roheinlesen()
+    nltkCorpusReadMK()
     #print(decodeMK("Änderunääüü")) # Anderunaauu
     #print(decodeMK("gesch�ftsstrategie  ke zur verf�gung "))
 print("ENDE")
