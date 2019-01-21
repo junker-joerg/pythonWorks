@@ -48,7 +48,9 @@ def convertMultiple(pdfDir, txtDir):
             # 
             textFilename = txtDir + pdf + ".txt"
             #textFile = open(textFilename, "w", encoding="utf-8", errors="ignore") #make text file
-            textFile = open(textFilename, "w", encoding="ascii", errors="replace") # ascii geht durch - aber Umlaute weg
+            textFile = open(textFilename, "w", encoding="utf-8", errors="replace") # ascii geht durch - aber Umlaute weg
+            #textFile = open(textFilename, "w", encoding="cp1252", errors="replace") # ascii geht durch - aber Umlaute weg
+            
             textFile.write(text) #write text to text file
             # hier nun in den Corpus schreiben
             # https://stackoverflow.com/questions/4951751/creating-a-new-corpus-with-nltk
