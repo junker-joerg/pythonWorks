@@ -893,3 +893,175 @@
 2019-01-22 15:14:04,377 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/ProCredit_IT Infrastructure Standard.pdf.txt geschrieben
 2019-01-22 15:14:38,879 - __main__ - INFO - Anzahl Tokens geschrieben 21215 
 2019-01-22 15:14:38,879 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Provinzial Konzern_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:48:30,831 - __main__ - INFO - Starte Logging
+2019-01-22 17:48:37,779 - __main__ - INFO - Anzahl Tokens geschrieben 2267 
+2019-01-22 17:48:37,779 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/02_Update IT Strategy_2015_AR.pdf.txt geschrieben
+2019-01-22 17:48:41,297 - __main__ - INFO - Anzahl Tokens geschrieben 6715 
+2019-01-22 17:48:41,297 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Airbusbank_Auslagerungsrichtlinie.pdf.txt geschrieben
+2019-01-22 17:48:41,435 - __main__ - INFO - Anzahl Tokens geschrieben 2 
+2019-01-22 17:48:41,435 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Airbusbank_IT Infrastruktur.pdf.txt geschrieben
+2019-01-22 17:48:43,111 - __main__ - INFO - Anzahl Tokens geschrieben 4868 
+2019-01-22 17:48:43,111 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Airbusbank_IT-Strategie 2016.pdf.txt geschrieben
+2019-01-22 17:48:49,867 - __main__ - INFO - Anzahl Tokens geschrieben 8308 
+2019-01-22 17:48:49,867 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/AllianzD_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:48:56,061 - __main__ - INFO - Anzahl Tokens geschrieben 8470 
+2019-01-22 17:48:56,077 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/AllianzSE_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:49:07,833 - __main__ - INFO - Anzahl Tokens geschrieben 13286 
+2019-01-22 17:49:07,844 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BayernLB_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:49:12,149 - __main__ - INFO - Anzahl Tokens geschrieben 5312 
+2019-01-22 17:49:12,149 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BayernLB_Umsetzungskonzept.pdf.pdf.txt geschrieben
+2019-01-22 17:49:19,700 - __main__ - INFO - Anzahl Tokens geschrieben 464 
+2019-01-22 17:49:19,700 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Auslagerungsmanagement.pdf.txt geschrieben
+2019-01-22 17:49:24,861 - __main__ - INFO - Anzahl Tokens geschrieben 615 
+2019-01-22 17:49:24,861 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Bebauungsplan_IT.pdf.txt geschrieben
+2019-01-22 17:49:40,202 - __main__ - INFO - Anzahl Tokens geschrieben 12617 
+2019-01-22 17:49:40,218 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Das Postbankvorgehensmodell.pdf.txt geschrieben
+2019-01-22 17:49:58,309 - __main__ - INFO - Anzahl Tokens geschrieben 10285 
+2019-01-22 17:49:58,327 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Funktionsprofile und Projektfunktionen.pdf.txt geschrieben
+2019-01-22 17:49:58,919 - __main__ - INFO - Anzahl Tokens geschrieben 1193 
+2019-01-22 17:49:58,919 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Gremienstruktur.pdf.txt geschrieben
+2019-01-22 17:49:59,498 - __main__ - INFO - Anzahl Tokens geschrieben 243 
+2019-01-22 17:49:59,498 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_IPS_Prozesse.pdf.txt geschrieben
+2019-01-22 17:50:02,219 - __main__ - INFO - Anzahl Tokens geschrieben 7815 
+2019-01-22 17:50:02,235 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_IT-Outsourcing.pdf.txt geschrieben
+2019-01-22 17:50:13,986 - __main__ - INFO - Anzahl Tokens geschrieben 7982 
+2019-01-22 17:50:14,002 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:50:15,697 - __main__ - INFO - Anzahl Tokens geschrieben 790 
+2019-01-22 17:50:15,697 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_IT_Auslagerungssteuerung.pdf.txt geschrieben
+2019-01-22 17:50:21,874 - __main__ - INFO - Anzahl Tokens geschrieben 1215 
+2019-01-22 17:50:21,874 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_KPI Strategieübersicht.pdf.txt geschrieben
+2019-01-22 17:50:22,030 - __main__ - INFO - Anzahl Tokens geschrieben 161 
+2019-01-22 17:50:22,046 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Organigramm Ressort Ressourcen.pdf.txt geschrieben
+2019-01-22 17:50:46,765 - __main__ - INFO - Anzahl Tokens geschrieben 14075 
+2019-01-22 17:50:46,781 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Phasen und Meilensteine.pdf.txt geschrieben
+2019-01-22 17:50:48,241 - __main__ - INFO - Anzahl Tokens geschrieben 2122 
+2019-01-22 17:50:48,241 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Postbank-Vorgehensmodell.pdf.txt geschrieben
+2019-01-22 17:50:48,562 - __main__ - INFO - Anzahl Tokens geschrieben 325 
+2019-01-22 17:50:48,562 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BHW_Übersicht Auslagerungen.pdf.txt geschrieben
+2019-01-22 17:50:55,556 - __main__ - INFO - Anzahl Tokens geschrieben 12493 
+2019-01-22 17:50:55,556 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BMW Bank_IT-Outsourcing.pdf.txt geschrieben
+2019-01-22 17:50:57,587 - __main__ - INFO - Anzahl Tokens geschrieben 3371 
+2019-01-22 17:50:57,587 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BMW Bank_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:51:03,062 - __main__ - INFO - Anzahl Tokens geschrieben 3153 
+2019-01-22 17:51:03,062 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BMW Bank_Projektmodell Agile Entwicklung.pdf.txt geschrieben
+2019-01-22 17:51:11,778 - __main__ - INFO - Anzahl Tokens geschrieben 2647 
+2019-01-22 17:51:11,793 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/BMW Bank_Projektmodell Allgemeine Projekte.pdf.txt geschrieben
+2019-01-22 17:51:25,817 - __main__ - INFO - Anzahl Tokens geschrieben 14639 
+2019-01-22 17:51:25,817 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Citigroup_Change Management Procedure.pdf.txt geschrieben
+2019-01-22 17:51:27,210 - __main__ - INFO - Anzahl Tokens geschrieben 2930 
+2019-01-22 17:51:27,226 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Citigroup_Change Management Standard.pdf.txt geschrieben
+2019-01-22 17:51:30,156 - __main__ - INFO - Anzahl Tokens geschrieben 6250 
+2019-01-22 17:51:30,172 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Citigroup_Enterprise Architecture Standards.pdf.txt geschrieben
+2019-01-22 17:51:30,609 - __main__ - INFO - Anzahl Tokens geschrieben 198 
+2019-01-22 17:51:30,609 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Citigroup_OneTech Change Management.pdf.txt geschrieben
+2019-01-22 17:51:45,762 - __main__ - INFO - Anzahl Tokens geschrieben 27578 
+2019-01-22 17:51:45,762 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Citigroup_Project Procedure.pdf.txt geschrieben
+2019-01-22 17:51:48,069 - __main__ - INFO - Anzahl Tokens geschrieben 5388 
+2019-01-22 17:51:48,069 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Citigroup_Records Management Policy.pdf.txt geschrieben
+2019-01-22 17:51:48,332 - __main__ - INFO - Anzahl Tokens geschrieben 315 
+2019-01-22 17:51:48,334 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Concordia_Organigramm.pdf.txt geschrieben
+2019-01-22 17:51:49,195 - __main__ - INFO - Anzahl Tokens geschrieben 340 
+2019-01-22 17:51:49,195 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Concordia_Systemscope.pdf.txt geschrieben
+2019-01-22 17:51:49,822 - __main__ - INFO - Anzahl Tokens geschrieben 878 
+2019-01-22 17:51:49,822 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_Auslagerungscontrolling SAP.pdf.txt geschrieben
+2019-01-22 17:51:50,635 - __main__ - INFO - Anzahl Tokens geschrieben 255 
+2019-01-22 17:51:50,650 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_IT Aufgabengebiete.pdf.txt geschrieben
+2019-01-22 17:51:53,237 - __main__ - INFO - Anzahl Tokens geschrieben 5283 
+2019-01-22 17:51:53,237 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_IT Notfallhandbuch.pdf.txt geschrieben
+2019-01-22 17:51:53,604 - __main__ - INFO - Anzahl Tokens geschrieben 84 
+2019-01-22 17:51:53,604 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_IT Organigramm.pdf.txt geschrieben
+2019-01-22 17:51:57,998 - __main__ - INFO - Anzahl Tokens geschrieben 2099 
+2019-01-22 17:51:57,998 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_IT Projektportfolio.pdf.txt geschrieben
+2019-01-22 17:52:00,172 - __main__ - INFO - Anzahl Tokens geschrieben 2831 
+2019-01-22 17:52:00,172 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_IT Strategie.pdf.txt geschrieben
+2019-01-22 17:52:00,297 - __main__ - INFO - Anzahl Tokens geschrieben 8 
+2019-01-22 17:52:00,297 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_Liste der Leistungsbeschreibungen.pdf.txt geschrieben
+2019-01-22 17:52:05,577 - __main__ - INFO - Anzahl Tokens geschrieben 1054 
+2019-01-22 17:52:05,577 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_Organigramm.pdf.txt geschrieben
+2019-01-22 17:52:11,364 - __main__ - INFO - Anzahl Tokens geschrieben 6550 
+2019-01-22 17:52:11,366 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_Rechenzentrumsdienstleistungen.pdf.txt geschrieben
+2019-01-22 17:52:12,058 - __main__ - INFO - Anzahl Tokens geschrieben 161 
+2019-01-22 17:52:12,058 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_Verhalten im Verdachtsfall.pdf.txt geschrieben
+2019-01-22 17:52:16,126 - __main__ - INFO - Anzahl Tokens geschrieben 4651 
+2019-01-22 17:52:16,126 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DAL_Virenschutz- und Firewallkonzept.pdf.txt geschrieben
+2019-01-22 17:52:16,904 - __main__ - INFO - Anzahl Tokens geschrieben 835 
+2019-01-22 17:52:16,904 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deka_IT-Aufbauorganisation.pdf.txt geschrieben
+2019-01-22 17:52:18,256 - __main__ - INFO - Anzahl Tokens geschrieben 1792 
+2019-01-22 17:52:18,256 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deka_IT-Projektportfolio.pdf.txt geschrieben
+2019-01-22 17:52:22,777 - __main__ - INFO - Anzahl Tokens geschrieben 8555 
+2019-01-22 17:52:22,792 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deka_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:55:47,037 - __main__ - INFO - Anzahl Tokens geschrieben 11987 
+2019-01-22 17:55:47,037 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deka_IT_Anwendungslandschaft.pdf.txt geschrieben
+2019-01-22 17:55:47,147 - __main__ - INFO - Anzahl Tokens geschrieben 11 
+2019-01-22 17:55:47,162 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deka_Organigramm.pdf.txt geschrieben
+2019-01-22 17:55:52,073 - __main__ - INFO - Anzahl Tokens geschrieben 8151 
+2019-01-22 17:55:52,073 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deutsche Bank_Planning Guidebook 2017.pdf.txt geschrieben
+2019-01-22 17:55:56,685 - __main__ - INFO - Anzahl Tokens geschrieben 5881 
+2019-01-22 17:55:56,685 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deutsche Bank_Strategy 2020.pdf.txt geschrieben
+2019-01-22 17:56:00,563 - __main__ - INFO - Anzahl Tokens geschrieben 17413 
+2019-01-22 17:56:00,563 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Deutsche Leasing_IT-Outsourcing.pdf.txt geschrieben
+2019-01-22 17:56:05,974 - __main__ - INFO - Anzahl Tokens geschrieben 10119 
+2019-01-22 17:56:05,974 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DEVK_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:08,799 - __main__ - INFO - Anzahl Tokens geschrieben 1365 
+2019-01-22 17:56:08,799 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DEVK_Organigramm.pdf.txt geschrieben
+2019-01-22 17:56:09,210 - __main__ - INFO - Anzahl Tokens geschrieben 206 
+2019-01-22 17:56:09,210 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DEVK_Organigramm_Informationsverarbeitung und Telekommunikation.pdf.txt geschrieben
+2019-01-22 17:56:09,487 - __main__ - INFO - Anzahl Tokens geschrieben 294 
+2019-01-22 17:56:09,487 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DEVK_Übersicht_wesentliche_IT-Systeme.pdf.txt geschrieben
+2019-01-22 17:56:15,356 - __main__ - INFO - Anzahl Tokens geschrieben 18062 
+2019-01-22 17:56:15,360 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DHB_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:23,408 - __main__ - INFO - Anzahl Tokens geschrieben 8142 
+2019-01-22 17:56:23,408 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DKB_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:26,301 - __main__ - INFO - Anzahl Tokens geschrieben 2977 
+2019-01-22 17:56:26,301 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/DKB_spezifisches Umsetzungskonzept.pdf.txt geschrieben
+2019-01-22 17:56:28,286 - __main__ - INFO - Anzahl Tokens geschrieben 2157 
+2019-01-22 17:56:28,302 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/ERGO_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:28,834 - __main__ - INFO - Anzahl Tokens geschrieben 1617 
+2019-01-22 17:56:28,850 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Fidor Bank_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:30,946 - __main__ - INFO - Anzahl Tokens geschrieben 4472 
+2019-01-22 17:56:30,946 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/FMS-WM_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:32,244 - __main__ - INFO - Anzahl Tokens geschrieben 2596 
+2019-01-22 17:56:32,244 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/HUK_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:35,324 - __main__ - INFO - Anzahl Tokens geschrieben 3256 
+2019-01-22 17:56:35,324 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Interhyp_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:36,419 - __main__ - INFO - Anzahl Tokens geschrieben 2995 
+2019-01-22 17:56:36,419 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/IT Governance-d-112-00.pdf.txt geschrieben
+2019-01-22 17:56:41,062 - __main__ - INFO - Anzahl Tokens geschrieben 9223 
+2019-01-22 17:56:41,062 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/IT Strategie - 01_IT Strategie_2016_FINAL_V1.0.pdf.txt geschrieben
+2019-01-22 17:56:44,001 - __main__ - INFO - Anzahl Tokens geschrieben 12370 
+2019-01-22 17:56:44,017 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Julius Bär_Geschäftstsrategie.pdf.txt geschrieben
+2019-01-22 17:56:44,894 - __main__ - INFO - Anzahl Tokens geschrieben 2401 
+2019-01-22 17:56:44,894 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Julius Bär_Information Security Policy.pdf.txt geschrieben
+2019-01-22 17:56:45,874 - __main__ - INFO - Anzahl Tokens geschrieben 1226 
+2019-01-22 17:56:45,876 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/LeasePlan_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:46,017 - __main__ - INFO - Anzahl Tokens geschrieben 0 
+2019-01-22 17:56:46,019 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/MKB_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:56:51,961 - __main__ - INFO - Anzahl Tokens geschrieben 11071 
+2019-01-22 17:56:51,961 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Munich RE_Global IT Sourcing Strategy.pdf.txt geschrieben
+2019-01-22 17:56:54,629 - __main__ - INFO - Anzahl Tokens geschrieben 6493 
+2019-01-22 17:56:54,629 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Munich RE_Outsourcing Policy.pdf.txt geschrieben
+2019-01-22 17:57:07,129 - __main__ - INFO - Anzahl Tokens geschrieben 29987 
+2019-01-22 17:57:07,129 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/PBB HRE_Business_Strategy.pdf.txt geschrieben
+2019-01-22 17:57:44,645 - __main__ - INFO - Anzahl Tokens geschrieben 25941 
+2019-01-22 17:57:44,645 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/PBB HRE_IT Strategy.pdf.txt geschrieben
+2019-01-22 17:57:45,273 - __main__ - INFO - Anzahl Tokens geschrieben 1637 
+2019-01-22 17:57:45,288 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/ProCredit_Application Change Management Standard.pdf.txt geschrieben
+2019-01-22 17:57:52,677 - __main__ - INFO - Anzahl Tokens geschrieben 19966 
+2019-01-22 17:57:52,677 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/ProCredit_Group IT strategy_2016.pdf.txt geschrieben
+2019-01-22 17:58:07,431 - __main__ - INFO - Anzahl Tokens geschrieben 32319 
+2019-01-22 17:58:07,431 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/ProCredit_IT Infrastructure Standard.pdf.txt geschrieben
+2019-01-22 17:58:40,771 - __main__ - INFO - Anzahl Tokens geschrieben 21215 
+2019-01-22 17:58:40,771 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Provinzial Konzern_IT-Strategie.pdf.txt geschrieben
+2019-01-22 17:58:47,553 - __main__ - INFO - Anzahl Tokens geschrieben 7238 
+2019-01-22 17:58:47,553 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Talanx_ITPrüfung_2016.pdf.txt geschrieben
+2019-01-22 17:58:49,374 - __main__ - INFO - Anzahl Tokens geschrieben 4807 
+2019-01-22 17:58:49,374 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/TARGOBank_IT Strategie.pdf.txt geschrieben
+2019-01-22 17:58:49,796 - __main__ - INFO - Anzahl Tokens geschrieben 1630 
+2019-01-22 17:58:49,796 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/Toyota Kreditbank_Richtlinie EDV-Strategie.pdf.txt geschrieben
+2019-01-22 17:58:57,635 - __main__ - INFO - Anzahl Tokens geschrieben 2447 
+2019-01-22 17:58:57,635 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/VKB_IT-Strategie.pdf.txt geschrieben
+2019-01-22 18:00:06,004 - __main__ - INFO - Anzahl Tokens geschrieben 4700 
+2019-01-22 18:00:06,004 - __main__ - INFO - Zieldatei C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/W+W_IT-Strategie.pdf.txt geschrieben
+2019-01-22 18:00:07,675 - __main__ - INFO - Anzahl Worte im Corpus 548328 
+2019-01-22 18:00:11,727 - __main__ - INFO - Anzahl Sätzt im Corpus 59864 
+2019-01-22 18:00:15,841 - __main__ - INFO - Anzahl Paragraphen im Corpus 49318 
