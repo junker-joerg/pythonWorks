@@ -84,8 +84,8 @@ if __name__ == "__main__":
     logger.addHandler(logHandler)
     logger.info("Starte Logging")
 
-    pdfDir = "C:/Users/mkoehler1/Documents/Python Scripts/pythonworks/"
-    txtDir = "C:/Users/mkoehler1/Documents/Python Scripts/pythonworks/" # aktuelles VZ ? unklar
+    pdfDir = "C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/"
+    txtDir = "C:/Users/MKoehler1/Documents/Python Scripts/itstratcorpus/" # aktuelles VZ ? unklar
     
     convertMultiple(pdfDir, txtDir)
      # nltk.data.path.append(b"C:\Users\mkoehler1\AppData\Roaming\nltk_data") # ! wenn der deutsche Tokenizer PUNKT nicht gefunden wird 
@@ -93,4 +93,12 @@ if __name__ == "__main__":
     # ? hier die Corpusverarbeitung aufrufen?
  
 
-    newcorpus = PlaintextCorpusReader(txtDir, ".*.txt") # ? hier corpus schreiben? 
+    newcorpus = PlaintextCorpusReader(txtDir, ".*.txt") # ? hier corpus aufbauen
+    #! tokens = nltk.word_tokenize(worte, language='german') wird durch den PlaintextCorpusReader sowieso aufgerufen
+    # ! print(newcorpus.paras(newcorpus.fileids()[0])) Logger 
+    
+    logger.info("Anzahl Worte im Corpus %i " %len(newcorpus.words()))
+    logger.info("Anzahl Sätzt im Corpus %i " %len(newcorpus.sents()))
+    logger.info("Anzahl Paragraphen im Corpus %i " %len(newcorpus.paras()))
+    
+    
