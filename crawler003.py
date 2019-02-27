@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 # ! git push https://github.com/junker-joerg/pythonworks [jeden Abend]
-# ! Das Beste aus den Vorversionen NLP_CIO_Tool2.py,  NLP_CIO_Tool.py...
-# ! ... corpusclean.py und CorpUniC01.py übernehmen
-# ToDO: über alle Dateien - aus jeder Datei wird mit PDFminer der Text gezogen und ín eine neue Datei kopiert   
-# ToDO: in einem zweiten Schritt werden die .txt-Dateien durch die Cleaner-Funktionen geschickt und dann wird
-# ToDO: die REIN-Datei für den Corpus geschrieben - es wird im LogFile vermerkt, wieviel Sätze / Worte geschrieben
-# ToDO: wurden
+# ! 
+# ! 
+# ToDO: Die Umlaute umcodieren und in eine txt.datei speichern - Dateiname aus Kalenderwoche + Jahr zusammensetzen
+# ToDO: Weitere RSS Quellen durch intere MA identifieren lassen - keine Programmierkenntnisse notwendig
+# ToDO:     
+# ToDO: 
 import feedparser
 import pandas
+import scrapy
+import time 
+
+
 
 # Function to fetch the rss feed and return the parsed RSS
 def parseRSS( rss_url ):
@@ -28,11 +32,10 @@ allheadlines = []
  
 # List of RSS feeds that we will fetch and combine
 newsurls = {
-    'CIO_1':            'https://www.cio.de/feed/at/1',
-    'CIO_2':            'https://www.cio.de/feed/p/3932',
-    'vs_foren_it':      'https://www.versicherungsforen.net/portal/de/system/rss/news.rss',
-    'techChrunch_1':    'http://feeds.feedburner.com/Techcrunch/europe',
-    'MIT_Technology':   'https://www.technologyreview.com/topnews.rss'     
+    'CIO_1':            'https://www.cio.de/feed/at/1',                                     # CIO Managzin Nachrichten
+    'CIO_2':            'https://www.cio.de/feed/p/3932',                                   # CIO Managzin Nachrichten
+    'vs_foren_it':      'https://www.versicherungsforen.net/portal/de/system/rss/news.rss', # Versicherungsforen
+    'CompWoche':        'https://www.computerwoche.de/feed/all'                             # Computerwoche
                         
 }
  
@@ -41,7 +44,12 @@ for key,url in newsurls.items():
     # Call getHeadlines() and combine the returned headlines with allheadlines
     allheadlines.extend( getHeadlines( url ) )
  
- 
-# Iterate over the allheadlines list and print each headline
-for hl in allheadlines:
-    print(hl)
+if __name__ == "__main__":
+    # Iterate over the allheadlines list and print each headline
+    fname=time.strftime("CIO_STRATEGIE_IT_Trends_%Y-%m-%d-%H_%M"+".txt") # ! CIO_STRATEGIE_IT_Trends_2019-02-27-11_04.txt als Beispielausgabe
+    trendsfile = open(fname, "w")
+    for hl in allheadlines:
+        recode = str(hl).encode().decode("UTF-8")
+        trendsfile.write(recode+"\n")
+        # print(recode)
+    trendsfile.close()
