@@ -53,3 +53,5 @@ if __name__ == "__main__":
         trendsfile.write(recode+"\n")
         # print(recode)
     trendsfile.close()
+    # ! hier dann den ersten Crawler einer relevanten deutsche IT-Strategie Seite (zB ein Blog) mit Scrapy aufrufen
+    # https://www.dinotools.de/2015/11/10/mit-scrapy-zum-eigenen-webcrawler/ .. hier oder woanders
