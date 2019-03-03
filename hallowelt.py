@@ -3,7 +3,7 @@ from __future__ import print_function
 #   git push https://github.com/junker-joerg/pythonworks
 #   der Rest läuft dann über gitlens
 
-print("hallo welt")
+print("hallo welt neu")
 print("Änderung")
 '''
 HelloWorld example using TensorFlow library.
