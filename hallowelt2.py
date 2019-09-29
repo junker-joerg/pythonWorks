@@ -1,8 +1,4 @@
-y# -*- coding=utf-8 -*-
-class classname(object):
-    def funcname(parameter_list):
-        pass
-    pass
+# -*- coding=utf-8 -*-
 
 def testfnktMK():
     print("Hallo Welt")
