@@ -1,4 +1,4 @@
-# -*- coding=utf-8 -*-
+y# -*- coding=utf-8 -*-
 class classname(object):
     def funcname(parameter_list):
         pass
