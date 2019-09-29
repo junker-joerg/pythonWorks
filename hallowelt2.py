@@ -6,12 +6,15 @@ def testfnktMK():
 def main():
     a = 1
     testfnktMK()
-
+    a= "hallo nochmal"
+    f1(a)
 for i in range(10):
     print(i)
 else:
     print("Ende")
 
+def f1(a: str):
+    print(a)
 
 class MK_CLASS(object):
     """docstring for MK_CLASS."""
