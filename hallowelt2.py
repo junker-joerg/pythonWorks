@@ -1,5 +1,5 @@
 # -*- coding=utf-8 -*-
-# hier kommt eine Kommentar
+#1 immer "git push" machen am Ende 
 def testfnktMK():
     print("Hallo Welt")
     
