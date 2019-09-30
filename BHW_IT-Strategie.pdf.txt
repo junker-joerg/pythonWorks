@@ -1,0 +1,4464 @@
+IT-Strategie der BHW Bausparkasse AG 
+
+Hameln, November 2016 
+Version 3.17 
+
+Dokumenten- und Versionsnachweis 
+
+Dokumentenattribute 
+Dokumentenowner 
+
+Autor / Bearbeiter 
+
+Freigebender 
+
+Vertraulichkeit 
+
+OI 
+
+IPS BHW 
+
+Vorstand BHW Bausparkasse AG 
+
+ Nur für den internen Gebrauch 
+
+Bezug zu regulatorischen Anforderungen 
+
+Erfüllung Vorgaben aus MaRisk 
+
+Letztes Review Gesamtdokument 
+
+N/A 
+
+Version  Datum 
+1.5 
+
+02.06.2015 
+
+Bearbeiter 
+Chief of Staff 
+
+Grund der Änderung 
+Grundlegende Überarbeitung 
+
+14.07.2015 
+
+ITPS BHW 
+
+Grundlegende Überarbeitung 
+
+21.07.2015 
+
+ITPS BHW 
+
+Interne Abstimmung BHW 
+
+06.08.2015 
+
+Chief of Staff 
+
+Anpassungen Architektur 
+
+1.6 
+
+1.7 
+
+1.8 
+
+1.9 
+
+2.0 
+
+Status 
+erledigt 
+
+erledigt 
+
+erfolgt 
+
+erledigt 
+
+13.08.2015 
+
+ITPS BHW 
+
+Interne Abstimmung BHW 
+
+In Abstimmung 
+
+24.08.2015 
+
+Chief of Staff 
+
+Finalisierung Version 2.0 
+
+erledigt 
+
+BHW Bausparkasse AG 
+
+Seite 2 
+
+Dokumenten- und Versionsnachweis 
+
+Version  Datum 
+1.5 
+
+02.06.2015 
+
+Bearbeiter 
+Chief of Staff 
+
+Grund der Änderung 
+Grundlegende Überarbeitung 
+
+14.07.2015 
+
+ITPS BHW 
+
+Grundlegende Überarbeitung 
+
+21.07.2015 
+
+ITPS BHW 
+
+Interne Abstimmung BHW 
+
+06.08.2015 
+
+Chief of Staff 
+
+Anpassungen Architektur 
+
+Status 
+erledigt 
+
+erledigt 
+
+erfolgt 
+
+erledigt 
+
+13.08.2015 
+
+ITPS BHW 
+
+Interne Abstimmung BHW 
+
+In Abstimmung 
+
+24.08.2015 
+
+Chief of Staff 
+
+Finalisierung Version 2.0 
+
+Erledigt 
+
+21.10.2015 
+
+Chief of Staff 
+
+Anpassungen Regulatorik, BHW 
+Architektur, DC-Move Single Side Risk 
+Mitigation, Zielbild Governance, 
+Kennzahlen  
+
+22.10.2015 
+
+ITPS BHW 
+
+Anpassungen Kennzahlen 
+
+06.11.2015 
+
+ITPS BHW 
+
+Anpassungen Kennzahlen für BHW 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+1.6 
+
+1.7 
+
+1.8 
+
+1.9 
+
+2.0 
+
+2.3 
+
+2.4 
+
+2.5 
+
+BHW Bausparkasse AG 
+
+Seite 3 
+
+Dokumenten- und Versionsnachweis 
+
+Version  Datum 
+
+Bearbeiter 
+
+16.11.2015 
+
+Chief of Staff 
+
+Grund der Änderung 
+Anpassungen Konzernzugehörigkeit,  
+Regulatorik, DC-Move Single Side 
+Risk Mitigation, Kennzahlen 
+
+24.11.2015 
+
+IPS BHW 
+
+Finalisierung, Versionshistorie 
+
+24.10.2016 
+
+IPS BHW 
+
+Überarbeitung der Folien 
+
+03.11.2016 
+
+IPS BHW 
+
+Architekturanpassung  
+
+07.11.2016 
+
+IPS BHW 
+
+Anpassungen der Kennzahlen 
+
+11.11.2016 
+
+IPS BHW 
+
+Interne Abstimmung BHW 
+
+17.11.2016 
+
+IPS BHW 
+
+Abstimmung mit PBS Vorstand 
+
+22.11.2016 
+
+IPS BHW 
+
+Finalisierung 
+
+2.6 
+
+2.7 
+
+3.0 
+
+3.12 
+
+3.14 
+
+3.15 
+
+3.16 
+
+3.17 
+
+Status 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+Erledigt 
+
+BHW Bausparkasse AG 
+
+Seite 4 
+
+Abkürzungsverzeichnis 
+
+Abkürzung 
+AfA 
+ASV 
+BCM 
+BHW 
+BPV 
+CERT 
+DB 
+IP 
+ISMS 
+ITIL 
+KPI 
+KWG 
+LCM 
+MaRisk 
+OCR 
+
+Bedeutung 
+Aufwand für Abnutzung 
+Auslagerungssachverhalt 
+Business Continuity Management 
+BHW Bausparkasse AG 
+Betriebsprodukt-Verantwortlicher 
+Computer Emergency Response Team 
+Deutsche Bank AG 
+Intellectual Property 
+IT Security Management System 
+IT Infrastructure Library 
+Key Performance Indicator 
+Gesetz über das Kreditwesen 
+Lifecyle-Management 
+Mindestanforderungen an das Risikomanagement 
+Outsourcing Control Report 
+
+BHW Bausparkasse AG 
+
+Seite 5 
+
+Abkürzungsverzeichnis 
+
+Abkürzung 
+PB 
+PBS 
+SLA 
+SRO 
+
+Bedeutung 
+Deutsche Postbank AG 
+Postbank Systems AG 
+Service Level Agreement 
+Service Relationship Owner 
+
+BHW Bausparkasse AG 
+
+Seite 6 
+
+Inhalt 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 7 
+
+1 
+
+Einführung in die IT-Strategie – Präambel 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+Sinn und 
+Zweck 
+
+• Ziel der vorliegenden Dokumentation ist es, einen Gesamtüberblick über die IT-Strategie  
+
+der BHW Bausparkasse AG zu geben, um eine konsequente Strategieumsetzung sicherzustellen 
+
+• Die BHW Bausparkasse AG erfüllt mit dieser Dokumentation die aufsichtsrechtlichen  
+
+Vorgaben der MaRisk 
+
+Geltungs-
+bereich 
+
+• Die vorliegende IT-Strategie gilt für die BHW Bausparkasse AG 
+• Die IT-Strategie betrachtet einen Zeitraum von 3 Jahren und wird jährlich überarbeitet 
+
+Selbst-
+verständnis 
+
+• Die Umsetzung der formulierten IT-Strategie stellt sicher, dass die BHW Bausparkasse AG 
+– optimale IT-Unterstützung mit kostengünstigen, modernen und stabilen IT Services erhält 
+– den Anforderungen aus dem herausfordernden Kunden- und Marktumfeld gewachsen ist 
+– die regulatorischen Anforderungen erfüllt  
+
+Verantwortlich-
+keiten 
+
+• Die IT-Strategie der BHW Bausparkasse AG wird durch den OI-Bereich der BHW Bausparkasse 
+
+AG in Zusammenarbeit mit der Postbank Systems erstellt 
+
+• Die Verantwortung für die Umsetzung und Prüfung der IT-Strategie des BHW liegt bei den 
+
+jeweiligen Vorständen der einzelnen Unternehmen der BHW Bausparkasse AG sowie der PBS 
+
+BHW Bausparkasse AG  
+
+Seite 8 
+
+1 
+
+Struktur der vorliegenden IT-Strategie 
+
+Kernelemente der IT-Strategie 
+
+Inhalt 
+1. Präambel 
+
+Vision 
+
+Mission 
+
+Strategische  
+
+Leitlinien 
+
+Services / 
+Leistungs-  
+umfang 
+
+Architektur 
+
+Organisation  Governance 
+
+2. Überleitung zur bisherigen IT-Strategie 
+
+3. Einordnung der Strategie in die Rahmenbedingungen 
+
+4. Geschäftsstrategie der BHW 
+
+5. Vision / Mission IT 
+
+6. Eckpfeiler und Leitsätze der IT-Strategie  
+
+7. Zielbild – Services und Leistungsumfang 
+
+8. Zielbild – Architektur 
+
+9. Zielbild – Organisation 
+
+Roadmap / Maßnahmenportfolio 
+
+10. Zielbild – Governance  
+
+Kontext / Einordnung 
+
+Geschäftsanforderungen 
+
+11: Kennzahlen (KPIs) 
+
+12. IT-Strategieprozess 
+
+BHW Bausparkasse AG  
+
+Seite 9 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT 
+
+ 
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 10 
+
+2 
+
+IT-Strategien von PB, BHW und PBS bauen aufeinan- 
+der auf und sind von den Geschäftsstrategien abhängig 
+
+Kontext IT-Strategie in PB-Gruppe (Dokumentensicht) 
+
+Bestandteil von 
+
+Ableitung 
+
+Geschäftsstrategie 
+Geschäfts- und Risikostrategie 
+Postbank-Gruppe1 
+
+IT-Strategie 
+IT-Strategie PB-Gruppe 
+
+Spezifika 
+
+ 
+
+Postbank Systems AG 
+
+Geschäfts-
+strategie2 
+
+ 
+ 
+
+IT-Strategie2 
+
+ 
+ 
+ 
+
+Beschreibung 
+• PB-Gruppe entwickelt eine auf 
+ihre Bedürfnisse ausgerichtete 
+IT-Strategie, die aus der aktuell 
+gültigen Geschäftsstrategie 
+der PB und der BHW1 
+abgeleitet ist 
+
+•
+
+In der IT-Strategie der PB-
+Gruppe werden die Spezifika 
+für die PB, PBS und BHW 
+entwickelt und beschrieben 
+
+• Die IT-Strategie der Postbank-
+
+Gruppe ist als ressourcen-
+orientierte Teilstrategie in  
+der Geschäftsstrategie  
+der PB verankert 
+
+• Die 100%-Tochter BHW besitzt 
+als Kreditinstitut eigenständige 
+Dokumente, für Geschäfts- und 
+IT-Strategie, die aus den Doku-
+menten der PB-Gruppe  
+abgeleitet sind 
+
+1 Die BHW Geschäftsstrategie fließt ein in die Geschäftsfeld-Strategie Bausparen innerhalb des Segmentes Retail Banking der Postbank Geschäftsstrategie 
+2 BHW erstellt eigenständige und mit der Postbank Geschäfts- und Risikostrategie konsistente, Dokumente zur Geschäfts- und IT-Strategie 
+
+BHW Bausparkasse AG  
+
+Seite 11 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 12 
+
+3 
+
+BHW - Konzernzugehörigkeit und Organisation 
+
+Die BHW Bausparkasse AG zählt mit rund 2,8 
+Millionen Kunden und 3,7 Millionen 
+Bausparverträgen zu den größten Bausparkassen in 
+Deutschland.  
+ 
+Seit Januar 2006 ist die BHW Bausparkasse AG 
+eine 100%ige Tochter der Deutsche Postbank 
+AG, die wiederum ein Tochterunternehmen der 
+Deutsche Bank AG ist (seit 2010). Die Deutsche 
+Bank AG hat im Rahmen ihrer „Strategie 2020“ 
+beschlossen, die Deutsche Postbank AG zu 
+entkonsolidieren. Dies bedeutet, dass die Deutsche 
+Bank AG nicht mehr die Mehrheitseigentümerin der 
+Postbank sein wird. Im Fall des IPO-Basisszenarios 
+ist der Börsengang der Deutsche Postbank AG ab 
+Mitte 2016 geplant. 
+ 
+Das Produktangebot der BHW Bausparkasse AG  
+setzt sich aus zwei Geschäftsfeldern zusammen: 
+Bausparen und Baufinanzierung.  
+ 
+Die BHW Bausparkasse AG ist eng mit dem mobilen 
+Vertrieb  und dem Filialnetz der Deutschen Postbank 
+AG verzahnt. Darüber hinaus kooperiert sie 
+erfolgreich mit namhaften Partnern aus dem 
+Banken- und Versicherungsbereich. 
+ 
+Im Januar 2014 hat die BHW Bausparkasse AG vier 
+neue Bauspartarife eingeführt. Seit 1. Juni 2015 wird 
+von der BHW Bausparkasse AG zudem ein neues 
+Riester-Produkt angeboten. 
+
+Die BHW Bausparkasse AG ist eine Bausparkasse 
+gemäß §1 Bausparkassengesetz 
+ 
+ „Bausparkassen sind Kreditinstitute, deren Geschäfts-
+betrieb darauf gerichtet ist, Einlagen von Bausparern 
+(Bauspareinlagen) entgegenzunehmen und aus den 
+angesammelten Beträgen den Bausparern für wohnungs-
+wirtschaftliche Maßnahmen Gelddarlehen (Bauspar-
+darlehen) zu gewähren (Bauspargeschäft)“. 
+
+Fassung vom 15.02.1991 (BGBl. I S. 454), zuletzt geändert durch Art. 6 
+Abs. 14 des Gesetzes vom 28.08.2013 (BGBl. I S. 3395) 
+
+BHW Bausparkasse AG  
+
+Seite 13 
+
+3 
+
+Die SWOT-Analyse zeigt strategische Handlungs- 
+felder für den Einsatz der IT bei BHW auf 
+
+Stärken 
+
+Schwächen 
+Schwächen 
+
+• PBS als Dienstleister mit zentraler IT-Verantwortung 
+
+• Kompetenz in Entwicklung von Software und Betrieb 
+
+für BHW 
+
+von IT-Systemen 
+
+• Steuerungskompetenz für strategische 
+
+externe Dienstleister  
+
+• Stabiler Betrieb der IT-Systeme 
+• Transparenz durch Kennzahlensteuerung 
+
+• Ausbau agiler Softwareentwicklung und Verzahnung 
+
+mit Demand- & Betriebsprozessen durch neue 
+Modelle der Zusammenarbeit 
+Identifizieren, Bewerten und Einführen neuer 
+Technologien 
+
+•
+
+• Fokussierung auf Neuordnung der BHW Architektur 
+
+und Realisierung 
+
+• Reduktion von Komplexität mit Entflechtung 
+• Operationalisierung der Personalstrategie 
+• Kritische Prüfung von Decomissionings-Potential 
+
+ 
+große und erfolgskritische Herausforderung 
+
+• Herstellung einer zukunftsfähigen Infrastruktur noch 
+• Nachholbedarfe bei LCM 
+• Hohe Komplexität in den Projekt- und 
+• Hohe Komplexität in Projekt- und Betriebsprozessen 
+
+Betriebsprozesses aufgrund von ständig 
+aufgrund steigender Compliance-Anforderungen 
+steigenden Compliance-Anforderungen 
+
+• Altersstruktur der Mitarbeiter 
+• Altersstruktur der Mitarbeiter 
+• Hoher externer Berateraufwand bei Spezial-Know-how 
+• Hoher externer Berateraufwand  
+• Steigende Betriebs- und Projektkosten 
+•
+
+bei Spezial-Know-how  
+  
+
+•
+
+„War for talents“ zur Sicherung strategischer IT-Skills 
+
+• Abfluss Know-how durch Fluktuation  
+• Abfluss Know-how durch Fluktuation und Altersstruktur 
+und  Altersstruktur 
+•
+„War for talents“ zur 
+• Wachsende Bedrohung durch Cyber Crime 
+Sicherung strategischer IT-Skills 
+• Hohe Bindung von Ressourcen aufgrund regulatorische 
+• Wachsende Bedrohung durch Cyber Crime 
+• Hohe Bindung von Ressourcen aufgrund 
+regulatorische Themen 
+• Teilbereich der IT-Dienstleistungen wird nicht von PBS 
+• Lifecyclestau  wächst 
+• Komplexität bei der Abarbeitung 
+
+• Wachsender Lifecyclestau und Komplexität bei der 
+
+abgedeckt (ca. 5%) 
+
+Abarbeitung 
+
+Themen 
+
+Chancen 
+
+Risiken 
+
+BHW Bausparkasse AG 
+
+Risiken 
+
+Seite 14 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT 
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 15 
+
+4 
+
+Die BHW Bausparkasse innerhalb des Postbank 
+Geschäftsmodells 
+
+Postbank Geschäftsmodell fußt auf starken Vertrieben und fokussiertem Produktangebot 
+
+Kunden- 
+segmente 
+
+Postbank Geschäftsmodell 
+
+Starke und umfassende Vertriebskanäle 
+
+Filialen 
+
+Mobiler 
+Vertrieb 
+
+Direktkanäle 
+
+Geschäfts-/  
+Firmenkunden 
+
+Retail Banking 
+Firmenkunden 
+
+Financial Markets 
+
+Produktfokussiertes Angebot 
+▪ attraktive Preisgestaltung 
+▪ mit 5 Kategorien 
+
+Konto/ ZV 
+
+Anlage 
+
+PDL 
+
+Kredite 
+
+ 
+ 
+
+Bausparen 
+
+Baufi 
+
+Transaction 
+
+Banking 
+
+State-of-the-Art Plattform 
+
+Vertriebe 
+Breiter Zugang für Privat-, 
+Geschäfts- und Firmen-
+kunden 
+ 
+Produkte 
+Einfache Produkte für den 
+täglichen Bedarf 
+ 
+Plattform 
+Kosteneffizienz und 
+Qualität 
+
+BHW Bausparkasse AG  
+
+Seite 16 
+
+4 
+
+Die IT-Strategie leitet sich aus Geschäftsstrategie  
+BHW innerhalb der Leitplanken der Konzern IT-
+Strategie ab 
+
+BHW Geschäftsstrategie 
+
+Unternehmenspolitik 
+
+Produktportfolio 
+
+Vertriebswege 
+
+Kollektivsteuerung 
+ 
+
+Wechselwirkungen 
+
+Konsistenz 
+
+IT-Strategie Postbank Gruppe/ 
+
+BHW IT-Strategie 
+
+Auslagerungsstrategie 
+
+BHW Risikostrategie 
+
+einschließl. strategischer Aussagen 
+
+zum Kredit- und Anlagegeschäft 
+
+BHW Bausparkasse AG  
+
+Seite 17 
+
+4 
+
+Proaktiver Umgang mit IT als elementarer Bestandteil 
+von Bankprodukten sichert die Differenzierung im 
+Wettbewerb 
+
+Externe IT-Kerntreiber  
+Digitalisierung/Mobilität:  
+Ausrichtung an wachsenden Kundenbedürfnissen in Bezug auf 
+Einfachheit und digitaler Verfügbarkeit, Abgrenzung zu neuen 
+Wettbewerbern 
+
+Big Data/Smart Data 
+Nutzung vorhandener Daten, um den Kunden neue innovative 
+Services anzubieten 
+
+Steigende Regulatorik und Compliance Anforderungen 
+Vorausschauende Umsetzung von wachsenden regulatorischen 
+(z.B. 5. MaRisk Novelle) und Compliance-Anforderungen  
+
+Cyber Security und Fraud  
+Aktive Abwehr zunehmender Anzahl von Cyberattacken mit 
+besseren technischen Fähigkeiten der Angreifer 
+
+Kostendruck intern sowie extern 
+Marktumfeld führt zu anhaltendem Margendruck und lässt 
+Kostendruck auf IT bestehen 
+
+BHW IT 
+
+BHW Bausparkasse AG  
+
+Seite 18 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 19 
+
+5 
+
+Die IT-Vision der BHW Bausparkasse AG 
+
+IT-Vision der BHW Bausparkasse AG 
+
+ 
+
+ 
+ 
+• Die BHW lagert die Anwendungsentwicklung und den gesamten IT-Betrieb an die Postbank 
+
+Systems und Hypoport AG aus und bezieht weitere IT-Dienstleistungen von der Postbank 
+Systems. 
+
+• Damit ist die BHW optimal in der Lage die Anforderungen aus Veränderungen der 
+
+Kundenbedürfnisse, des Marktumfeldes sowie der regulatorischen Anforderungen flexibel 
+umzusetzen. 
+
+• BHW und die IT Dienstleister gewährleisten gemeinschaftlich beim Bezug von IT-Dienstleistungen, 
+
+dass bekannte regulatorische Anforderungen, unter Ausnutzung von Best Practices, effektiv und 
+effizient umgesetzt werden. In der Ausprägung der Operationalisierung von Compliance 
+Anforderungen legt BHW auf ein optimales Risikoprofil zu angemessenen Kosten Wert. 
+
+BHW Bausparkasse AG  
+
+Seite 20 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 21 
+
+6 
+
+Die Eckpfeiler und Leitsätze der IT-Strategie werden 
+aus den Leitlinien der Geschäftsstrategie abgeleitet 
+
+Eckpfeiler und Leitsätze der IT-Strategie 
+
+Wir richten uns auf unsere Kunden aus 
+Der Kunde steht im Fokus der BHW Bausparkasse. BHW strebt den Ausbau der direkten 
+Kundenbeziehungen an. 
+
+Wir liefern, was wir versprochen haben 
+IT-Strategie und Roadmap für Enterprise Systeme (Finance, Risk, etc.) werden abhängig von der BHW-
+Geschäftsstrategie mit dem Ziel einer effektiven und effizienten Umsetzung entwickelt. Dabei wird auf 
+ein optimales Risikoprofil zu angemessen Kosten Wert gelegt. 
+
+Wir leben unser Leitbild 
+Die IT-Strategie sichert die Erfüllung der Geschäftsanforderungen in Bezug auf Stückkosten-, Qualitäts- 
+und Technologieführerschaft im Backend, Service und Frontend. 
+
+BHW Bausparkasse AG  
+
+Seite 22 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 23 
+
+Agenda 
+
+7 
+
+Zielbild – Services und Leistungsumfang 
+
+A 
+
+B 
+
+C 
+
+Angebotene Services  
+
+IT-Sourcing-Strategie 
+
+Leistungssteuerung der PBS 
+
+BHW Bausparkasse AG 
+
+Seite 24 
+
+7 
+
+A 
+
+Die Verrechnung der von PBS für die BHW erbrachten 
+Leistungen erfolgt auf den Produkten der PBS 
+
+Personal 
+
+Leistungsverrechnung 
+
+Produkte 
+
+Beschreibung 
+
+ 
+t
+r
+o
+p
+p
+u
+S
+
+ 
+
+ 
+ 
+ 
+Service 
+Delivery 
+
+Std. 
+
+Platt-
+formen 
+
+Betriebs- 
+leistun-
+gen 
+
+Stunden 
+
+Grund-
+last 
+
+Stunden 
+
+ 
+ 
+System 
+Engineer-
+ing 
+
+Projekt- 
+leistun-
+gen 
+
+Test 
+Quali-
+tätsma-
+nage-
+ment 
+ 
+
+Aktivierung 
+
+Stunden 
+
+Endgeräte  
+
+LE 
+
+Vermietung  
+
+SLA 
+
+Betriebs- 
+Produkte 
+
+A
+p
+p
+l
+i
+k
+a
+t
+i
+o
+n
+e
+n
+ 
+
+• PBS bietet Leistungen aus den Bereichen 
+
+Projekte, Betriebsprodukte und Vermietung an 
+
+• In Betriebsprodukten werden Leistungen aus 
+
+Entwicklung (soweit aktivierbar) und Betrieb von 
+Applikationen zusammengefasst 
+
+• Preise für Betriebsprodukte werden auf Basis der 
+
+Ist-Kosten1 regelmäßig durch das Price-Board 
+festgelegt und den Nutzern verrechnet 
+
+• Im Bereich Projekte werden direkte Projekt-
+
+aufwände2 entsprechend der beantragten 
+Projektmittel verrechnet (als Projekt- oder 
+Linienauftrag) 
+
+• Leistungsvereinbarung zwischen BHW und PBS 
+
+erfolgt über Vereinbarung von Service-Level-
+Agreements (SLAs) für Betriebsprodukte  
+
+• Einhaltung dieser SLAs wird durch entsprech-
+
+endes Monitoring überwacht  
+
+• Für übergreifende Überwachung der PBS- 
+Leistungserbringung gegenüber dem BHW 
+(entsprechend KWG § 25a bzw. MaRisk) dient 
+die Funktion des SRO IT3 in der BHW Bsk. 
+
+Projekte 
+
+• Die Postbank Systems erstellt regelmäßig Reports 
+
+(OCR und ISMS-Report), die in den entsprech-
+enden Gremien erörtert werden 
+
+1: Kalkulierter Mitarbeitereinsatz, Hardwareeinsatz und AfA etc. | 2: Bei internen Mitarbeitern über festen Stundensatz | 3: SRO IT = Service Relationship Owner 
+
+BHW Bausparkasse AG 
+
+Seite 25 
+
+7 
+
+A 
+
+Für jedes Betriebsprodukt sind die wesentlichen 
+Parameter festgelegt 
+
+Wesentliche Parameter von Betriebsprodukten 
+
+Leistungs-
+parameter 
+
+• Leistungsinhalte 
+
+Servicelevel 
+
+Monitoring & 
+Reporting 
+
+Vertragliche 
+Grundlagen 
+
+• Serviceklassen (z.B. GoldPlus, Gold, 
+
+Silber, Standard) 
+
+• Sollwerte (Betriebszeit, Batchzeit, 
+
+Antwortzeit, Reaktionszeit) 
+
+• Wartung 
+• Business Continuity Vorgaben 
+
+ 
+
+• Monitoring Tools 
+• Reporting Intervalle 
+• Reportinginhalte 
+
+• Preisbildung und Vergütung 
+• Laufzeit und Kündigung 
+• Drittbeauftragung 
+• Verantwortlichkeiten 
+• Eskalationsmanagement 
+
+Beschreibung 
+• Leistungen für laufenden Betrieb 
+
+von Applikationen inkl. notwendiger 
+technischer Infrastruktur 
+
+• Für jedes Betriebsprodukt gibt es 
+
+einen BPV, da wesentliche 
+inhaltliche Unterschiede durch 
+Fachbezogenheit der Applikationen 
+
+• Sicherstellung technisch 
+
+angemessener Unterstützung bzgl. 
+fachlicher Anforderungen 
+
+• Vertragliche Festlegung der 
+
+Betriebsprodukte durch SLAs 
+
+Quelle: Weitere Details sind im RTO Handbuch Auslagerungen IT nachzulesen, das sich noch im Abnahmeprozess befindet 
+
+BHW Bausparkasse AG 
+
+Seite 26 
+
+Agenda 
+
+7 
+
+Zielbild – Services und Leistungsumfang 
+
+A 
+
+B 
+
+C 
+
+Angebotene Services  
+
+IT-Sourcing-Strategie 
+
+Leistungssteuerung der PBS 
+
+BHW Bausparkasse AG 
+
+Seite 27 
+
+7 
+
+B 
+
+Die IT-Auslagerungsstrategie wird aus dem Core- / 
+Non-Core Ansatz abgeleitet 
+
+Core- / Non-Core Ansatz der BHW Bausparkasse AG 
+
+IT-Auslagerungsstrategie BHW 
+
+3 Dimensionen… 
+
+…mit Implikationen für Auslagerungen 
+
+• Verbleibende Funktionen im BHW 
+
+Non-Core 
+
+CoreCore 
+
+− Steuerung des IT-Demands  
+
+ 
+
+• Ausgelagerte Funktionen: 
+
+− Teilweise Vertrieb mit Partner 
+
+• Ausgelagerte IT-Funktionen: 
+
+− IT-Betrieb  
+− IT-Entwicklung 
+ 
+
+Strategie 
+a.Werttreiber/Unique 
+competitive advantage 
+b.Control 
+
+Nicht ausla-
+gern wollen 
+oder nur unter 
+bestimmten 
+Bedingungen 
+auslagern 
+
+Regulatorik 
+(Gesetz und Intention) 
+
+Nicht auslagern 
+dürfen 
+
+Einschränkungen 
+durch System- 
+relevanz2 
+a.Makroökonomi-sche 
+Bedeutung 
+b.Ersetzbarkeit 
+c.Seperability 
+
+Vorsichtig 
+behandeln; 
+d. h. 
+Weiter-
+funktionieren 
+sicherstellen 
+
+BHW Bausparkasse AG 
+
+Seite 28 
+
+7 
+
+B 
+
+Die PBS hat ein selektives Sourcing-Modell mit einem 
+hohen Anteil eigener Wertschöpfung 
+
+Outsourcing oder Beschaffung 
+
+Gemeinsame Entwicklung mit Partnern 
+
+Entwicklung (CtB) 
+
+PBS erbringt Leistungen 
+Betrieb (RtB) 
+
+Für BHW 
+markt- 
+differen-
+zierend 
+
+S
+t
+e
+u
+e
+r
+u
+n
+g
+
+ 
+
+Für BHW 
+nicht 
+markt- 
+differen-
+zierend 
+
+Nicht 
+bank- 
+spezi-
+fisch 
+
+Eigenentwicklung 
+(z.B. Frontends) 
+
+Eigenentwicklung 
+(z.B. Frontends) 
+
+Standard- 
+software 
+(z.B. SAP Banking 
+Plattform) 
+
+Standard- 
+software 
+(z.B. SAP 
+Banking Plattform) 
+
+Ausgewählte Services 
+(z.B. Filial-IT, Kartenprocessing)  
+
+Standard- 
+software 
+
+Standard- 
+software 
+
+Hard- u. Software 
+(z.B. Datenbanken) 
+
+Basisbetrieb 
+(z.B. Datenbanken, 
+Betriebssysteme) 
+
+Ausgewählte Services 
+(z.B. Arbeitsplatz (PIA)) 
+
+Beschreibung 
+• PBS entwickelt und betreibt Software in marktdifferenzie-
+
+renden Bereichen für BHW oder andere Finanzdienstleister1 
+
+• Sourcing Externer zur Skill- oder Kapazitätsunterstützung 
+• Nutzung und Customizing Standardsoftware 
+• Weiterentwicklung Standardsoftware gemeinsam mit 
+
+Herstellern 
+
+• Betrieb von Standardsoftware durch PBS für BHW und 
+
+andere Finanzdienstleister1 
+
+• Einkauf von Full Service IT-Dienstleistungen (Entwicklung 
+
+und Betrieb) bei externen Dienstleistern  
+
+• Nutzung von Standardsoftware in nicht bankspezifischen 
+
+Bereichen 
+
+• Einkauf von Hard- und Software, Betrieb durch PBS (z.B. 
+
+Oracle, Betriebssysteme)  
+
+• Optionen zwischen Einkauf als Full Service oder Nutzung 
+
+von Standardsoftware und Betrieb durch die PBS 
+
+1: Sofern dies im Interesse der BHW Bausparkasse AG ist 
+
+BHW Bausparkasse AG 
+
+Seite 29 
+
+7 
+
+B 
+
+Ziel der PBS ist Skillaufbau für neue technische und 
+technolo-gische Entwicklungen, bei gleichzeitiger 
+Reduzierung des Anteils Externer 
+
+Beschreibung Steuerung 
+
+• Planung und Steuerung von IT-Pro-
+jekten und IT-Betrieb einschließlich 
+Budget- und Portfolio-Steuerung 
+
+• Architektur 
+• Querschnittsaufgaben in Controlling, 
+
+Risikomanagement, etc. 
+
+Plan 
+
+• Entwicklung von Bankensoftware als 
+
+Eigenentwicklung in marktdifferen-
+zierenden Bereichen 
+
+• Weiterentwicklung Applikationen 
+• Nutzung von Standardsoftware in Be-
+reichen ohne Marktdifferenzierungen 
+
+Steuer
+ung 
+
+Build 
+
+Leistungserbringung durch 
+PBS 
+
+• Sicherstellung Steuerungs-
+
+fähigkeit und Risikokontrolle 
+
+ 
+• Sicherung Prozesswissen 
+und IP1 (insbesondere in 
+marktdifferenzierenden 
+Bereichen) 
+
+Unterstützung durch Externe 
+
+• Füllen von temporären Skill-Lücken 
+
+(Spezial-Know-how) 
+
+• Abfederung von Lastspitzen 
+
+• Identifizieren, Bewerten und 
+
+Einführen neuer 
+ 
+Technologien 
+ 
+
+• Erhalt der Leistungs-fähigkeit 
+
+der PBS durch Stärkung ei-
+gener Mitarbeiter  
+
+• Nutzung von Markt-know-how insb. in 
+
+nicht differenzierenden Bereichen 
+
+• Kurzfristige Skalierbarkeit (Flexibilität) 
+• Kostensenkung (Economies of Scale) 
+
+• Betrieb von Banken-IT zur Unterstüt-
+zung der Bank-Geschäftsprozesse 
+
+• Betrieb von Commodity Applikationen 
+• Betrieb von Infrastruktur 
+
+Run 
+
+• Ausreichende Größe 
+
+erreicht, um IT-Dienstleist. 
+effizient anbieten zu können 
+
+• Kostenvorteile durch 
+
+Angebot der gesamten IT-
+Wertschöpfungskette aus  
+einer Hand 
+
+• Kurzfristige Beschaffung von Spezial-
+
+Know-how 
+
+• Erhalt der Flexibilität durch Ausgleich 
+
+Lastspitzen oder temporär 
+
+Externe Unterstützung nach dem Modell der verlängerten Werkbank (Leistungserbringung für PBS vor Ort;  
+sehr geringer Anteil Gewerke) 
+
+1: Intellectual property 
+
+BHW Bausparkasse AG 
+
+Seite 30 
+
+Agenda 
+
+7 
+
+Zielbild – Services und Leistungsumfang 
+
+A 
+
+B 
+
+C 
+
+Angebotene Services  
+
+IT-Sourcing-Strategie 
+
+Leistungssteuerung der PBS 
+
+BHW Bausparkasse AG 
+
+Seite 31 
+
+7 
+
+C 
+
+Die Leistungssteuerung der PBS durch BHW erfolgt 
+durch die IT-Providersteuerung und die BPV 
+
+Leistungssteuerung der PBS durch BHW1 
+Inhaltliche Service 
+Steuerung 
+
+Formale Service Steuerung 
+
+Beschreibung 
+
+ 
+
+• Übergreifende Vorgaben erfolgen durch das Aus-
+
+lagerungsmanagement der BHW 
+
+BHW 
+
+BPV 
+
+ Auslagerungssteuerung 
+
+ IT-Providersteuerung 
+
+• Die Auslagerungssteuerung der BHW zum IT-
+
+Dienstleister wird durch die IT Provider- 
+steuerung verantwortet 
+
+PBS 
+Verantwortliche 
+für Service 
+
+ Accountmanagement 
+
+• Als Ansprechpartner für IT-Providersteuerung 
+
+fungiert auf PBS-Seite das Accountmanagement 
+
+• Der Weiterverlagerungsprozess wird durch das 
+
+Auslagerungsmanagement der PBS verantwortet 
+und von BHW begleitet 
+
+•
+
+Inhaltliche Steuerung der Liefer- und Leis-
+tungsbeziehungen erfolgt seitens BHW 
+durch BPV  
+
+• Operative Steuerung erfolgt vielschichtig und ist 
+
+hier nicht dargestellt 
+
+Externe Vendoren 
+
+1: Operative Beziehungen nicht dargestellt  
+
+BHW Bausparkasse AG 
+
+… 
+
+Seite 32 
+
+7 
+
+C 
+
+Formale Steuerung der IT-Auslagerungen erfolgt auf 
+Seiten der BHW durch die IT-Providersteuerung 
+
+Funktionen in der BHW 
+
+Service Relationship Owner (SRO-IT) 
+
+BHW Bausparkasse AG 
+
+Seite 33 
+
+7 
+
+C 
+
+Die Postbank Systems erstellt regelmäßige Reports 
+über die erbrachte Leistung und die Risikoeinschätzung 
+
+Reports der Postbank Systems 
+
+OCR Report 
+
+Erweiterter Risikobericht 
+
+ISMS Report 
+
+Quality Status Report 
+
+Portfolio PBS Status Bericht  Wochenreport IT-Betrieb 
+
+Monatsbericht operativer IT- 
+Betrieb BHW 
+
+Service Report per BP 
+
+Monatsreport operativer IT-
+Betrieb gesamt 
+
+Produktionsstatus SLA 
+
+PBS VCQ 
+
+Reporting Aus und 
+Weiterverlagerungen 
+
+Vertragsliste 
+
+Monatsbericht Soll / Ist 
+Vergleich 
+
+Change-Kalender, Change 
+Report BHW, sowie 
+Changes Umsetzungsquote 
+
+BHW Bausparkasse AG 
+
+Seite 34 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 35 
+
+Agenda 
+
+8 
+
+Zielbild – Architektur 
+
+A 
+
+B 
+
+C 
+
+D 
+
+Digitalisierungsstrategie  
+
+Cyber Security / Fraud 
+
+Konsolidierung BHW-Architektur  
+
+DC Move Single Site Risk Mitigation 
+
+BHW Bausparkasse AG 
+
+Seite 36 
+
+8 
+
+A 
+
+BHW Bausparkasse AG hat vor den Digitalisierungs-
+grad zu erhöhen 
+
+BHW Bausparkasse AG 
+
+Seite 37 
+
+Agenda 
+
+8 
+
+Zielbild – Architektur 
+
+A 
+
+Digitalisierungsstrategie  
+
+B  Cyber Security / Fraud 
+
+C 
+
+D 
+
+Konsolidierung BHW-Architektur  
+
+DC Move Single Site Risk Mitigation 
+
+BHW Bausparkasse AG 
+
+Seite 38 
+
+8 
+
+C 
+
+Die BHW IS-Strategie fokussiert auf der Realisierung 
+von 3 übergeordneten strategischen Zielen 
+
+IS-Strategie der BHW Bausparkasse  
+
+Strategische Ziele der Informationssicherheit 
+
+1 
+
+Schutz vor IS-
+Gefahren und 
+Bedrohungen 
+
+Die Informationssicherheitsfunktion richtet die 
+Organisation darauf aus, relevante IS-Bedroh-
+ungen frühzeitig zu erkennen und zu lindern, um 
+ein nicht beeinflussbares Restrisiko und die 
+Gefahr von IS-relevanten Verlusten zu verringern. 
+
+2 
+
+Unterstützung 
+der Geschäfts-
+erbringung 
+
+Durch partnerschaftliche Unterstützung IS-
+relevanter Projekte wird die Reputation und das 
+Kundenvertrauen (insbesondere mit Blick auf die 
+steigende Bedeutung digitaler Kommunikations-
+wege) aufrechterhalten. 
+
+Die Etablierung von IS soll die Geschäfts-
+erbringung unterstützen, vor Bedrohungen 
+schützen und das Bewusstsein der 
+Organisation zu IS-Risiken steigern 
+
+3 
+
+Steigerung des 
+IS-Bewusst-
+seins 
+
+Für die Erreichung der gesetzten Ziele ist die 
+Wahrnehmung des Themas und der Funktion 
+Informationssicherheit innerhalb der Postbank 
+Organisation zu fokussieren. 
+
+Die Gewährleistung von Verfügbarkeit, Integrität, Vertraulichkeit und 
+Authentizität von Informationen soll jederzeit sichergestellt werden 
+
+BHW Bausparkasse AG 
+
+Seite 39 
+
+8 
+
+C 
+
+BHW CISO ist wesentlicher Bestandteil beim Aufbau 
+und im Zielbild eines konzernweiten Informations-
+Sicherheits-Management-Systems (ISMS) 
+
+Aufbau steuerndes Konzern Informations-
+Sicherheits-Management-System (ISMS) 
+
+Anlass- 
+bezogene (und 
+turnusmäßig) 
+
+ 
+
+W
+H
+B
+
+ 
+/
+ 
+
+B
+P
+
+ 
+
+O
+S
+C
+
+I
+
+Konzernweite 
+Richtlinien 
+und Regeln 
+
+3. VL 
+ 
+ 
+ 
+
+Revision 
+
+2. VL 
+
+Regulatory  
+Compliance 
+
+Richtlinien- 
+umsetzung        
+(einschl. Fest-      
+legung des           
+Risiko- 
+appetits) 
+
+1. Verteidigungslinie 
+
+(VL) 
+
+• Geschäftsbereiche (BPVn1) 
+
+•
+
+IT Organisation unter  
+Einbeziehung SROs2 
+
+Kontrolle und Über- 
+wachungshandlung 
+
+Strategie für das 
+
+Informationssicherheitsrisikomanagement 
+
+(z.B. Risikoappetit, Schutz wertvoller Vermögenswerte) 
+
+Risikoaufnahme  
+und –kontrolle sowie  
+Reporting und  
+Eskalation 
+
+Risikoidenti- 
+fikation, -bewer- 
+tung und  
+-management 
+
+Richtlinien, Regeln und Arbeitsanweisungen 
+
+(z.B. ISO, BSI, Technologierichtlinien) 
+
+Organisation (inkl. Entscheidungsgremien) 
+
+(z.B. Verantwortlichkeiten, Training) 
+
+Ablauforganisation 
+
+(z.B. Business Continuity Planning) 
+
+Technologie und physische  
+Infrastruktur (z.B. Grundsätze) 
+
+1: BPV (Betriebsproduktverantwortlicher): i.d.R. Abteilungsleiter oder Vorstand, der Betriebsprodukte wie z. B. Kreditanalyse, Vertrieb/Marketing oder Meldewesen verantwortet I  
+2: Service Relationship Owner (SRO): wird von auslagernder Abteilung benannt und verantwortet mit dieser eine Auslagerung, SRO übernimmt Auslagerungssteuerung und        
+-überwachung und muss  mindestens den Status eines Abteilungsleiters (Führungsebene 3) haben 
+
+BHW Bausparkasse AG 
+
+Seite 40 
+
+8 
+
+C 
+
+Das Informations-Sicherheits-Management-System 
+innerhalb der Organisation der PBS ist ISO-zertifiziert 
+
+Iinformations-Sicherheits-Management-System 
+
+• Als Finanzdienstleister stellt BHW hohe Anforderungen an die Informationssicherheit 
+• Organisatorische und technische Maßnahmen sollen jederzeit die notwendigen Anforderungen 
+hinsichtlich Verfügbarkeit, Integrität und Vertraulichkeit der Informationen gewährleisten können 
+
+• BHW erwartet Verfügbarkeit der Zugangskanäle für Kunden von über 99% 
+• Alle IT-Systeme werden jederzeit durch geeignete und angemessene Maßnahmen vor virtuellen und 
+
+unberechtigten Angriffen geschützt 
+
+• Ziel der PBS ist es, mit dem ISMS1 den Standard ISO 270012 in der jeweils aktuellen Fassung zu 
+
+erfüllen 
+
+• Eine regelmäßige Zertifizierung gemäß ISO 27001 wird angestrebt (Zertifizierung besteht 
+
+durchgängig seit 2006; letzte Zertifizierung erfolgte in 2015) 
+
+• PBS agiert als Competence Center zum Thema IT-Sicherheit und berät die Postbank 
+
+zum Thema Informationssicherheit 
+
+Zur Aufrechterhaltung hoher Niveaus der Informationssicherheit erfolgt an BHW 
+angepasste Weiterentwicklung von ISMS mittels regelmäßiger Revision sowie interne und 
+externe Audits 
+
+1: Informations-Sicherheits-Management-System    |    2: Standard für Anforderung an Informationssicherheits-Management-System 
+
+BHW Bausparkasse AG 
+
+Seite 41 
+
+Agenda 
+
+8 
+
+Zielbild – Architektur 
+
+A 
+
+B 
+
+C 
+
+D 
+
+Digitalisierungsstrategie  
+
+Cyber Security / Fraud 
+
+Konsolidierung BHW-Architektur  
+
+DC Move Single Site Risk Mitigation 
+
+BHW Bausparkasse AG 
+
+Seite 42 
+
+8 
+
+C 
+
+BHW IT Architektur – Ist Situation 
+ 
+
+Die BHW IT steht vor wesentlichen Herausforderungen, die sich in den zentralen Dimensionen 
+Technologie, Kosten und Organisation äußern.  
+
+Historisch gewachsene und komplexe IT Technologie-Landschaft 
+ Betriebsstabilität steht im Spannungsfeld zur komplexen und stark verwobenen IT Landschaft 
+ Signifikanter Investitionsstau wg. nicht durchgeführter Lifecycle-Maßnahmen  
+
+(z. B. keine größeren HW-Anpassungen seit 2006) 
+
+ Mainframe: Legacy Plattform mit hohen Betriebskosten sowie umfangreiche  
+
+COBOL Anwendungssysteme und Ablaufsteuerung  
+
+ IT Komplexität trägt nur begrenzt zur angestrebten Prozesskonvergenz und Digitalisierung bei 
+ Begrenzte Flexibilität und Geschwindigkeit bei Produktanpassungen 
+ Regulatorische Anforderungen, insb. in Bezug auf Berechtigungsmgmt., Security, etc. 
+
+Steigende Kosten 
+ Kritische Kostenentwicklung für die verbleibenden BHW Hostanwendungen („Last Man Standing“ Effekt BHW)  
+ Zusätzliches Risiko für weiteren Kostenanstieg im Host-Umfeld (Ende IBM ESSO Vertrag)  
+ Hohe IT Komplexität resultiert in überproportional hohen CTB-Aufwänden  
+ CTB Aufwände wg. Notwendigkeit für rückständige und anstehende Lifecycle Maßnahmen 
+
+Organisation 
+ Hohes operationelles Risiko durch altersbedingte Know-How Abwanderung von Entwicklungsressourcen, insb. im 
+
+COBOL-Umfeld  mit Gefährdung der Stabilität von Kernapplikationen  
+
+BHW Bausparkasse AG 
+
+Seite 43 
+
+Zielsetzungen 
+
+8 
+
+C 
+
+Mit Bausparen als strategisches Geschäftsfeld ergeben sich wesentliche 
+Zielsetzungen für eine Konsolidierung der BHW IT Architektur: 
+
+Strategiekonformität 
+ Nachhaltige IT Strategie Bausparen / Baufinanzierung (inkl. möglichem Wechsel der Kernapplikationen) in PB 
+
+Gruppe 
+
+ Unterstützung der BHW Digitalisierungsstrategie 
+ Flexibilität / Geschwindigkeit bei BHW Produktanpassungen (time to market)  
+
+Technologische Zukunftsfähigkeit 
+ Kurzfristige und dauerhafte Sicherung der IT Betriebsstabilität 
+ Reduktion der Komplexität und damit Verbesserung der Managebility der IT Systemlandschaft 
+ Reaktionsfähigkeit Compliance & Revisionssicherheit 
+ Ablösung Mainframe als gemeinsames Ziel PB-Gruppe 
+
+Kostenreduktion & Effizienzsteigerung 
+ Erhöhung Automatisierungsgrad und Beitrag zu Effizienzsteigerung in Vertrieb und Back-Office (IT und 
+
+Fachseite) mit signifikanter Reduktion der Betriebskosten 
+
+ Vermeidung eines künftigen IT Betriebskostenanstiegs 
+ Senkung der CTB und LCM Aufwände 
+
+Organisation 
+ Sicherung Know-How Erhalt / Zugriff ohne MA-Investitionen in „Alt-Technologie“ & Skills   
+ Skalierbarkeit für Themen und Projekte, um auf wechselnde Anforderungen reagieren zu können 
+
+BHW Bausparkasse AG 
+
+Seite 44 
+
+Agenda 
+
+8 
+
+Zielbild – Architektur 
+
+A 
+
+B 
+
+C 
+
+D 
+
+Digitalisierungsstrategie  
+
+Cyber Security / Fraud 
+
+Konsolidierung BHW-Architektur  
+
+DC Move Single Site Risk Mitigation 
+
+BHW Bausparkasse AG 
+
+Seite 45 
+
+8 
+
+D 
+
+Die Auswahl der zukünftigen Rechenzentren für die 
+PB-gruppe basiert auf 4 strategischen Kriterien 
+
+Qualität / Sicherheit 
+Nutzung eines RZ mit nachgewiesener Qualität bei der 
+Bereitstellung hochverfügbarer Infrastruktur-dienste 
+inkl. notwendiger Sicherheit 
+• Orientiert an Tier-3 Level Klassifizierung für RZ1 
+• Nachweis relevanter Zertifizierungen (ISO 9001, 
+
+27001, ggf. weitere) 
+
+• Positive Referenz von zur PB vergleichbaren  
+
+Kunden 
+
+Providerstabilität 
+Kontrahierung mit professionellen, nachhaltig 
+erfolgreichen RZ-Providern 
+
+ 
+
+• Sicherstellung Stabilität des Providers trotz 
+
+anhaltender Marktkonsolidierung 
+
+• Dual bzw. single Vendor Situation nicht 
+
+erforderlich 
+
+• Umsetzung aller für Steuerung von Weiter-
+verlagerungen notwendigen Anforderungen 
+
+Lokation 
+Auswahl von adäquaten Standorten für die 
+Bereitstellung der RZ-Leistungen  
+
+• Nähe / Zugang zu notwendigen weiteren Infra-strukturen 
+
+(DENIC, Telekommunikationsanbieter) 
+
+• Hohe Wettbewerbsdichte der Anbieter für RZ-Dienste 
+• Nähe zum wichtigsten deutschen Finanzhandelsplatz 
+
+sichert Verfügbarkeit eines Ökosystems von 
+Dienstleistern 
+
+ 
+
+Effizienz / Kosten 
+Nutzung eines energieeffizienten und somit 
+kostengünstigen RZ unter Berücksichtigung 
+der Umzugskosten 
+• Auswahl eines RZ mit geringen Betriebs-kosten 
+
+und einem günstigen PUE2-Wert 
+
+• Nutzung von RZ, in denen bereits aktuell 
+
+Applikationen der PB betrieben werden 
+
+• Einsatz eines Providers, welcher Flexibilität bei 
+
+der Abnahme der Leistung bietet 
+
+Die dargestellten Kriterien bilden die strategische Grundlage für die Standortwahl für die zukünftigen 
+Rechenzentren der Postbank Gruppe 
+
+1 Internationaler Standard für Klassifikation von Rechenzentren; Details im Backup I 2 Power Usage Effectivness 
+
+BHW Bausparkasse AG 
+
+Seite 46 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 47 
+
+Agenda 
+
+9 
+
+Zielbild - Organisation 
+
+A 
+
+B 
+
+C 
+
+Standortstrategie 
+
+Prozesse der Anwendungsentwicklung 
+
+Prozesse IT-Betrieb 
+
+BHW Bausparkasse AG 
+
+Seite 48 
+
+9 
+
+A 
+
+Die IT Betreuung der BHW erfolgt zum Großteil am 
+Standort Hameln 
+
+Mitarbeiter nach Standorten 
+
+ 
+ 
+ 
+
+Strategische Standorte 
+
+Standorte 
+
+19 
+
+15 
+
+241 
+
+22 
+
+889 
+
+109 
+
+20 
+
+12 
+
+61 
+
+Strategische Standorte nach Ressorts 
+
+Bonn 
+
+Hameln 
+
+Frankfurt 
+
+Details 
+
+Bonn 
+Hameln 
+Frankfurt 
+München 
+Berlin 
+Saarbrücken 
+Hamburg 
+Hannover 
+Nürnberg 
+Summe 
+
+P: 
+
+A.-E.² + 
+
+Regulatorik 
+384 
+146 
+71 
+51 
+16 
+19 
+15 
+9 
+11 
+722 
+
+B:  
+
+Stabilität 
+
+427 
+92 
+36 
+10 
+6 
+1 
+4 
+6 
+1 
+583 
+
+VV:  
+
+Vorstand 
+62 
+3 
+2 
+
+67 
+
+I:  
+
+16 
+
+Finanzen  Summe 
+889 
+241 
+109 
+61 
+22 
+20 
+19 
+15 
+12 
+13881 
+
+16 
+
+1: Anzahl Mitarbeiter (FTE-Einheiten), Stand: Oktober 2016,          2: Anwendungsentwicklung 
+
+BHW Bausparkasse AG 
+
+Seite 49 
+
+9 
+
+A 
+
+Zur Stärkung der Innovationsfähigkeit wird eine 
+Veränderung der Altersstruktur angestrebt 
+
+Aktuelle Altersstruktur der Beschäftigten in PBS1 
+
+Beschreibung 
+
+Anzahl 
+
+Altersdurchschnitt: 46,7 Jahre 
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+50
+
+• Herausforderungen 
+
+− Altersstruktur der PBS nicht homogen, 
+
+hohe Anzahl Ruheständler in den 
+kommenden Jahren  
+
+− Strategische IT-Skills und -Profile intern 
+
+teilweise nicht vorhanden  
+
+− Hohe Kosten für externe Beratung 
+− Entflechtung erhöht FTE-Bedarf 
+
+• Risiken  
+
+− Verlust an Know-how und Arbeitskräften 
+
+durch Ruheständler 
+
+− Zu geringe Wertschöpfungstiefe 
+− Hohe Abhängigkeit von Externen  
+− Fehlendes internes Know-how 
+
+• Ziele 
+
+− Internalisierung von Mitarbeitern bei 
+
+gleichzeitiger Reduktion externer Berater  
+
+0
+< 19  20-24   25-29  30-34  
+
+35-39  
+
+40-44  
+
+45-49  
+
+50-54  
+
+55-59  
+
+60-64  
+
+> 65 
+
+Alter 
+
+− Optimierung Einstellungsprozess und 
+
+Akquise von Talenten am Markt 
+
+− Investition in strategische IT-Skills durch 
+
+Neueinstellungen 
+
+  Altersdurchschnitt im letzten Jahr nicht weiter gestiegen 
+
+1: Stand Juni 2016 
+
+BHW Bausparkasse AG 
+
+Seite 50 
+
+9 
+
+A 
+
+Kampagne zum Employer Branding zahlt auf die 
+strategischen Personalziele ein 
+
+Strategische 
+Ziele 
+
+Analyseergebnisse EVP1 
+
+Initiativen 
+
+Positionierung 
+als attraktiver 
+IT-Arbeitgeber  
+am Markt 
+ 
+
+• Mitarbeiter als 
+
+Marken-
+botschafter 
+strategisch 
+einbinden 
+ 
+Umsetzung 
+Kreativ-
+konzept in 
+Linie 
+
+•
+
+•
+
+ 
+
+Employer Branding inklusive 
+Kampagne Login to Postbank 
+Systems 
+
+- Messestände 
+-
+-
+
+Flyer 
+Personalimage-
+Anzeigen 
+
+1: Employer Value Proposition; drückt das Nutzenversprechen des Arbeitgebers aus 
+
+BHW Bausparkasse AG 
+
+Seite 51 
+
+Agenda 
+
+9 
+
+Zielbild - Organisation 
+
+A 
+
+B 
+
+C 
+
+Standortstrategie 
+
+Prozesse der Anwendungsentwicklung 
+
+Prozesse IT-Betrieb 
+
+BHW Bausparkasse AG 
+
+Seite 52 
+
+9 
+
+B 
+
+In der Postbank Systems ist ein Vorgehensmodell zur 
+Softwareentwicklung etabliert 
+
+Überblick Vorgehensmodell (VGM) Postbank 
+
+Vorstudie 
+(beratungs-
+
+studie) 
+
+Phasen 
+
+Grob- 
+konzept 
+
+Fach- 
+
+feinkonzept 
+
+DV- 
+
+Design 
+
+Realisier-ung 
+
+Betriebs- 
+einführung 
+
+Scoping 
+
+Specification 
+
+Design 
+
+Construction 
+
+Roll out 
+
+Disziplinen 
+
+Vorstudie 
+erstellen 
+
+Konzeption erstellen 
+
+Lösung realisieren und testen 
+
+Grob- 
+konzept 
+
+Fachfein- 
+konzept 
+
+DV-Design  
+erstellen 
+
+Realisierung 
+
+System- 
+test 
+
+1 
+
+2 
+
+4 
+
+5 
+
+6 
+
+In den 
+Betrieb 
+einführen 
+
+8 
+
+Qualitygates 
+
+RIT 
+
+7 
+
+Geschäftsprozess- 
+modellellierung 
+Anforderungsmanagement 
+
+Analyse & Design 
+
+Implementierung 
+
+Testen 
+
+Auslieferung 
+
+Projektmanagement 
+
+Architekturentwurf 
+
+Qualitätsmanagement 
+Konfigurations-und  
+änderungsmanagement 
+Methoden & tools 
+
+ 
+
+g
+n
+u
+r
+e
+
+i
+
+s
+
+i
+l
+
+a
+e
+R
+ 
+r
+e
+d
+n
+
+ 
+
+i
+ 
+
+n
+o
+i
+t
+a
+r
+e
+t
+I
+ 
+
+e
+n
+E
+
+i
+
+Zeit 
+
+Trailoring 
+
+Quality  
+
+Gate 
+
+Profile 
+
+CMMI 
+
+Werkzeuge 
+
+Fremdvergabe 
+
+Releasemgmt. 
+
+Trainings 
+
+BHW Bausparkasse AG 
+
+Beschreibung 
+• Standardprozess für 
+Neu- und Weiterent-
+wicklung von Appli-
+kationen durch VGM 
+definiert 
+
+• Umfassende Vorgaben 
+enthalten, u.a. Policies, 
+Hilfsmittel und Ergeb-
+nistypen 
+
+• Verbindliche Quality 
+
+Gates durch VGM 
+vorgegeben 
+
+• Wird insbesondere für 
+
+SAP- und weitere 
+Backend-Systeme 
+verwendet 
+
+• VGM kann an neue An-
+forderungen angepasst 
+werden (Tailoring) 
+
+Umfangreiche Doku-
+mentation im Organi-
+sationhandbuch PBS 
+
+Seite 53 
+
+9 
+
+B 
+
+Einführung von Minor Releases verfolgt das Ziel der 
+Etablierung agiler Methoden 
+
+Abfolge der Releases 
+
+Im Jan. – März & Juli – Sep. sind Minor - 
+Releases nach festgelegten Kriterien 
+möglich. 
+
+Im April & Oktober Freeze in 
+Vorbereitung auf das Major – Release.  
+
+Major – Release im Mai & 
+November. 
+
+Stabilitätspatch 
+planungsgemäß im Juni & 
+Dezember. 
+
+Jan. 
+
+Feb.  März 
+
+April 
+
+Mai 
+
+Juni 
+
+Juli 
+
+Aug. 
+
+Sep. 
+
+Okt. 
+
+Nov. 
+
+Dez. 
+
+Beschreibung  
+
+Ziele 
+• Kürzere Releasezyklen zur 
+Nutzung des Time 2 Market 
+Effekts für kundennahe Features 
+
+• Beitrag zur ganzheitlichen 
+
+Etablierung agiler Methoden 
+
+• Erhöhung der Sicherheit und 
+
+Stabilität 
+
+• Reduzierung von Komplexität 
+
+Realisierung 
+• Zur Abgrenzung und Einordnung 
+wurden entscheidungsrelevante 
+Kriterien definiert 
+
+• Minor Releases erfolgen ohne 
+
+Downtime 
+
+BHW Bausparkasse AG 
+
+Seite 54 
+
+9 
+
+B 
+
+In den nächsten Jahren liegt der Fokus der 
+Prozessentwicklung auf drei Kernthemen 
+
+Intensivierung agiler Projektmethoden 
+
+• Agile Entwicklungsprozesse als Ergänzung zu Wasserfall-Prozessen hin zu gleichberechtigten 
+
+Vorgehensmodellen formal etablieren 
+
+• Auswahlkriterien für Agile Projekte definieren 
+• Gemeinsames Festlegen des Vorgehens FB & IT 
+
+Ganzheitliche Voraussetzungen für eine schnellere 
+Anwendungsentwicklung und –bereitstellung schaffen 
+•
+•
+
+Angrenzende Prozesse an agile Rahmenbedingungen anpassen (Minor-Releases, Testing, …) 
+Unterstützende Tools und Werkzeuge bereit stellen 
+
+Effizienzsteigerung in IT-Projekten 
+
+• Höhere Transparenz der Kosten und Risiken bei der Projektkalkulation schaffen 
+• Wertschöpfenden Anteil der Softwareentwicklung steigern 
+• Messbarkeit der Bewertungskriterien für Projekteffizienz herstellen 
+
+BHW Bausparkasse AG 
+
+Seite 55 
+
+9 
+
+B 
+
+Um Flexibilität und Umsetzungsgeschwindigkeit zu 
+erhöhen, wird agiles neben klassischem Vorgehen 
+angewendet 
+
+Art des Vorgehens 
+
+Charakteristik 
+
+Anwendungsbereich 
+
+Agiles Vorgehen 
+
+• Schrittweise Annährung bei unklaren 
+
+Anforderungen und schnellere Nutzung 
+erster Ergebnisse als primäres Ziel 
+
+• Spezifikation entsteht mit Fachbereich 
+
+während der Umsetzung 
+
+• Risiko wird für jeden Sprint einzeln 
+
+bewertet 
+
+• Häufige Go-Lives 
+
+• Projekte mit Wiederholungs-
+
+charakter insb. Frontend 
+
+• Geringe Vernetzung oder gute 
+
+Entkopplung 
+
+Klassisches 
+Vorgehen 
+
+• Einhaltung Time und Budget als primäres 
+
+Ziel 
+
+• Genaue Spezifikation von Scope, Time 
+
+und Budget in Initialisierungsphase 
+
+• Risikomanagement des Gesamtprojektes 
+
+ab Initiierungsphase 
+
+• Teilweise lange Testzyklen 
+
+• Backend-Systeme mit viel-
+
+fachen Vernetzungen  
+
+• Sicherstellung der Stabilität 
+
+ 
+
+BHW Bausparkasse AG 
+
+Seite 56 
+
+Agenda 
+
+9 
+
+Zielbild - Organisation 
+
+A 
+
+B 
+
+C 
+
+Standortstrategie 
+
+Prozesse der Anwendungsentwicklung 
+
+Prozesse IT-Betrieb 
+
+BHW Bausparkasse AG 
+
+Seite 57 
+
+9 
+
+C 
+
+Die Prozesse im Bereich IT-Betrieb erstrecken sich 
+über die gesamte Wertschöpfung und sind an ITIL 
+angelehnt 
+Prozesse im IT-Betrieb 
+Plan 
+
+Build 
+
+Run 
+
+Beschreibung 
+
+BE1 
+Kapazität 
+planen 
+
+BE2 
+Verfügbar-
+keit planen 
+
+BE3 
+IT Kontinuität 
+sicherstellen 
+
+BE6 
+IT Plattform-
+Lösungen 
+entwickeln 
+
+BE9 
+IT 
+Plattformen 
+bereitstellen 
+
+BE10 
+IT 
+Plattformen 
+warten 
+
+RE2 
+Release/-
+Vorhaben in 
+den Betrieb 
+einführen 
+
+BE5 
+Änderungen 
+von CIs 
+steuern 
+
+BE7 
+IT Services 
+liefern 
+
+BE8 
+IT Störungen 
+beheben 
+
+BE4 
+Probleme 
+analysieren 
+
+• Prozesse im Bereich 
+
+Betrieb orientieren sich 
+am Standard der IT 
+Infrastructure Library 
+• Prozesse erstrecken 
+
+sich über alle Bereiche 
+der Wertschöpfungs-
+kette  
+
+• Die Prozesse IT-Betrieb 
+sind detailliert im Orga-
+nisationshandbuch der 
+Postbank Systems 
+beschrieben 
+
+Quelle: Organisationshandbuch der PBS 
+
+BHW Bausparkasse AG 
+
+Seite 58 
+
+9 
+
+C 
+
+Die Investition in LCM-Maßnahmen durch Moderni-
+sierung der Infrastruktur soll die Zukunftsfähigkeit der 
+BHW Bausparkasse AG sichern 
+
+LCM wurde als Prozess definiert 
+ 
+Transparenz über Bedarfe, 
+Prioritäten & Risiken soll über ein 
+abgestimmtes Verfahren 
+hergestellt werden 
+
+Aktuelle Handlungsfelder sollen in  
+strategischen Initiativen thematisch  
+gebündelt umgesetzt werden 
+Umsetzung erfolgt geordnet nach 
+Clustern und auf Basis eines 
+Fundaments aus Tools & Policies  
+
+Top-Themen für LCM 
+
+Mit erhöhter Priorität sollen die Themen 
+BHW IT, Regulatorik & Arbeitsplatz 
+über LCM-Maßnahmen weiterentwickelt 
+werden 
+
+BHW Bausparkasse AG 
+
+Seite 59 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 60 
+
+10 
+
+Die Governance der IT-Leistungserbringung ist in der 
+Postbank Systems-Prozesslandkarte dokumentiert1 
+
+ 
+
+g
+n
+u
+r
+e
+u
+e
+t
+S
+
+ 
+
+g
+n
+u
+f
+p
+ö
+h
+c
+s
+t
+r
+e
+W
+
+ 
+
+n
+e
+c
+r
+u
+o
+s
+s
+e
+R
+
+Vorstand 
+
+Vorstand 
+
+Vorstand P-Ressort  
+
+Leiter/-in Account- 
+und Mandanten-
+management 
+
+AP1 Anforderung 
+aufnehmen und 
+Kunden beraten 
+
+GP1 
+
+Governance sicherstellen 
+
+GP2 
+
+IT Risk and Control 
+
+Leiter/-in Account- 
+und Mandanten-
+management 
+
+AP2a 
+Auftrag einholen und 
+Portfolio freigeben 
+
+Leiter/-in Account- 
+und Mandanten-
+management 
+
+AP2b 
+SLA erstellen 
+
+Leiter/-in Portfolio- und Releasemanagement 
+
+RE1 
+Release planen und Releaseintegrationstest durchführen 
+
+Leiter/-in Competence Center 
+
+AE-Anwendungen entwerfen und erstellen/AW-Anwendungen weiterentwickeln 
+und warten 
+
+Plan 
+Leiter/-in Planung Plattformen 
+
+BE1 
+Kapazität planen 
+
+BE2 
+Verfügbarkeit planen 
+
+BE3 
+IT Kontinuität sicherstellen 
+
+Build 
+Leiter/-in Integration 
+BE6 
+IT Plattform-Lösungen entwickeln 
+
+BE9 
+IT Plattformen bereitstellen 
+
+BE10 
+IT Plattformen warten 
+
+Vorstand B-Ressort 
+
+RUN 
+Leiter/-in Service Delivery 
+
+RE2 
+Release/Vorhabe
+nin den Betrieb 
+einführen 
+
+BE5 
+Änderungen von 
+Cls steuern 
+
+RE7 
+IT Services 
+liefern 
+
+BE8 
+IT Störungen 
+beheben 
+
+BE4 
+Probleme 
+analysieren 
+
+Vorstand V-Ressort 
+
+Leiter/-in Geschäftsplanung 
+
+Leiter/-in Personalmanagement 
+
+Leiter/-in Geschäftsplanung 
+
+Leiter/-in Finance Management 
+
+AM 
+
+Assetmanagement durchführen 
+
+PE 
+
+Personalmanagement durchführen 
+
+Controllinginformationen bereitstellen 
+
+CO 
+
+FI 
+
+Finanzmanagement durchführen 
+
+1 Organisationshandbuch der Postbank Systems 
+
+BHW Bausparkasse AG  
+
+Seite 61 
+
+10 
+
+Ziel des Risikomanagements ist Überwachung und 
+Steuerung der mit IT-Leistungserbringung 
+verbundenen Risiken  
+ 
+
+Risikomanage-
+ment von 
+Projekten 
+
+Risikomanage-
+ment im Betrieb 
+
+Weiterentwick-
+lungen 
+
+• Überwachung von Projektrisiken erfolgt im Rahmen des IT-Qualitätsmanage-
+ments der Anwendungsentwicklung anhand verbindlicher KPIs und ist somit  
+in die Organisation der Anwendungsentwicklung eingebunden 
+
+ 
+• Prävention, Überwachung, Fehlerbehandlung und Notfallvorsorge hinsichtlich 
+
+IT-betrieblicher Risiken 
+
+• Redundante Auslegung sowie ständiges Monitoring geschäftskritischer 
+
+Anwendungen 
+
+• Störungsereignisse werden in Incident- und Störungsprozessen toolgestützt 
+
+aufgenommen 
+
+• Die im Rahmen von Assessments und Tests identifizierten Risiken, welche die 
+
+Notfallfähigkeit einschränken, werden zentral aufgenommen und in  
+ihrer Abarbeitung überwacht 
+
+• Eine stärkere inhaltliche Ausrichtung des Risikomanagements (inkl. einer 
+
+Risikopotentialeinschätzung) ermöglicht eine bessere Risikosteuerung  
+über die verschiedenen Ebenen von Dienstleistern und Mandanten 
+
+• Das ORM Self Assessment wird auch zur „Rekalibrierung und Selbstkon-
+
+trolle“ des Risikomanagement-Systems der PBS genutzt (Risiken, Kontrollen, 
+Risikoindikatoren) 
+
+• IT-Security-Risiken innerhalb Security-Risiko-Prozess eingebunden 
+ 
+ 
+
+1: Standard für Anforderung an Informationssicherheits-Management-System 
+
+BHW Bausparkasse AG  
+
+Seite 62 
+
+10 
+
+Datenschutz 
+
+Grundlagen 
+
+Ziele / Maßnahmen 
+
+• Die datenschutzrechtlichen Anforderung der 
+
+BHW Bausparkasse AG (BHW) an die Postbank 
+System AG (PBS) sind in der Rahmenverein-
+barung Datenschutz (Stand Sep. 2013) nebst 
+Anlagen geregelt.   
+
+• Die zwischen BHW und PBS vereinbarten 
+
+organisatorischen und technischen Maßnahmen, 
+zum Schutz von personenbezogenen Daten,  
+stellen die notwendigen Anforderungen 
+hinsichtlich Verfügbarkeit, Integrität und 
+Vertraulichkeit sicher. Diese Maßnahmen 
+werden kontinuierlich dem technischen 
+Fortschritt und der Weiterentwicklung 
+angepasst. 
+
+• Der Datenschutzbeauftragte der BHW und der 
+PBS  tauschen sich regelmäßigem zu aktuellen 
+Datenschutz-Themen aus. 
+
+• Der Service Relation Owner  (SRO) der 
+
+BHW Bausparkasse AG stellt die Ein-
+haltung der datenschutzrechtlichen 
+Bestimmungen und die ordnungsgemäße 
+Verarbeitung personenbezogener Daten 
+gemäß Bundesdatenschutzgesetz (BDSG) 
+sicher. Unterstützt wird er hierbei vom 
+Datenschutzbeauftragten der BHW 
+Bausparkasse AG.  
+
+• Die zukünftigen Anforderungen der EU-
+
+Datenschutz Grundverordnung (EU-
+DSGVO) werden berücksichtigt und im 
+Rahmen eines gemeinsamen PB-Konzern-
+Projekts bis Mai 2018 umgesetzt. 
+
+• Der Datenschutzbeauftragte der PBS prüft 
+
+in regelmäßigen Abständen die Unter-
+auftragnehmer der PBS und stellt so die 
+ordnungsgemäße Datenverarbeitung 
+sicher. 
+ 
+
+BHW Bausparkasse AG  
+
+Seite 63 
+
+10 
+
+Internes Kontrollsystem (IKS) 
+
+Zielsetzung 
+
+Operative 
+Kontrollen 
+
+Management- 
+Kontrollen 
+
+Monitoring- 
+Kontrollen 
+
+Überprüfung 
+des Regel-
+werkes 
+
+•
+
+•
+
+IKS ist die Summe der Kontrollprozesse der PBS zur Sicherstellung der definierten 
+Ergebnisse der Wertschöpfungskette in gewünschter Qualität und Zeit 
+IKS sichert die IT-Compliance ab 
+
+• Prozessimmanente, automatisierte, oder manuelle, vor- oder nachgelagerte, vollständige 
+
+oder stichprobenhafte Überprüfungen, ob die Ergebnisse qualitativ und quantitativ den 
+erwarteten / vereinbarten Ergebnissen entsprechen 
+
+• Unabhängige, stichprobenhafte Überprüfungen der Wirksamkeit der operativen Kontrollen 
+
+durch den Vorgesetzten  
+
+• Regelmäßige, unabhängige Messungen der Ergebnisse von operativen Kontrollen sowie 
+
+Reporting der Ergebnisse 
+
+• Prüfung der Einhaltung von Regelungen für den SW-Entwicklungsprozess und des 
+
+integrierten Prozesses der Betriebsübergabe 
+
+• Grundlage des IKS ist die Einhaltung der Richtlinien und des Vorgehensmodells zur 
+
+Sicherstellung der Compliance 
+
+• Regelmäßige (jährliche) Prüfung der Dokumente unerlässlich 
+• Alle Kontrollen sind schriftlich mit den Attributen Kontrollziel, Art der Kontrolle, Angabe des 
+Kontrollierenden, Kontrollobjekt, Ort der Kontrolle und Reaktion bei Exceptions fixiert und 
+Bestandteil der schriftlich fixierten Ordnung der PB 
+
+• Ergebnisse der Monitoring-Kontrollen werden in einem monatlichen Dashboard 
+
+zusammengefasst und dem Managementteam PBS berichtet 
+
+BHW Bausparkasse AG  
+
+Seite 64 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 65 
+
+11 
+
+Die für BHW wesentlichen Risiken wurden mit Kenn-
+zahlen ausgestattet, für die Schwellwerte / Toleranzen 
+entwickelt wurden 
+
+Überprüfung der Kennzahlen 
+
+Beschreibung 
+
+• Die strategischen KPIs werden aus den IT strategischen 
+
+Zielen abgeleitet. Sie sind konsistent zu den Zielen der 
+übergreifenden Postbank Ressortstrategie I/O. 
+ 
+
+• Die KPIs werden vierteljährlich gemessen und im Senior 
+
+Management Sponsors (SMS¹) behandelt. 
+ 
+
+• Im Falle einer signifikanten Abweichung werden vom Senior 
+
+Management Sponsors (SMS¹) Steuerungsimpulse 
+abgeleitet. 
+ 
+
+• Eine regelmäßige Überprüfung und Weiterentwicklung 
+der IT strategischen KPIs erfolgt in enger Abstimmung mit 
+dem Senior Management Sponsors (SMS¹). 
+
+¹ Das Senior Management Sponsors (SMS) ist ein Gremium, bestehend aus den Vorständen der BHW Bausparkasse AG, Postbank Systems und dem 
+SRO IT. Gremien sind darüber hinaus in der Anlage 5 des Handbuchs „Auslagerung IT an die Postbank Systems AG“ beschrieben. 
+
+BHW Bausparkasse AG  
+
+Seite 66 
+
+11 
+
+Die für BHW wesentlichen Risiken wurden mit Kenn-
+zahlen ausgestattet, für die Schwellwerte / Toleranzen 
+entwickelt wurden 
+
+IT strategische KPI 
+
+Strategische 
+Dimension 
+
+Kategorie 
+
+* 
+
+IT 
+
+Zielwert ** 
+
+grün 
+
+gelb 
+
+rot 
+
+Kundenzufriedenheit 
+
+Ø Zufriedenheit der BPV mit 
+der PBS 
+
+> 85 % 
+
+100 – 85 % 
+
+84 – 70 % 
+
+< 70 % 
+
+Kunden-
+orientiert  
+
+Innovation 
+
+Anteil Innovation / GE an 
+CTB-Projektleistung 
+
+gem. 
+Portfolioplanung 
+
+Kostendisziplin 
+
+Einhaltung Kostenziel PBS 
+
+Effizient & 
+Einfach  
+
+Produktivität 
+
+Komplexität 
+
+Techn. Verfügbarkeit 
+(Anz. SLA-Verstöße) 
+
+Anzahl Changes 
+
+Digital & 
+Flexibel  
+
+Digitalisierung 
+
+Agilität 
+(Geschwindigkeit) 
+Flexibilität 
+(Wandlungsfähigkeit) 
+
+Anteil Digitalisierung an    
+CTB-Projektleistung 
+
+Ø Dauer Störungsbehebung 
+(Prio 1 und Prio 2) in Std. 
+
+Fertigungstiefe CTB 
+(Interne FTE CTB vs. gesamt) 
+
+Abw. um 5% 
+vom Planwert 
+
+-5% bis +5% 
+
+-5,01% bis -15% 
+5,01% bis 15% 
+
+<= 6 
+
+0 bis 6 
+
+6 bis 10 
+
+2016 = 60 Stk. 
+Ziel 2017 = 2016 
+
+gem. 
+Portfolioplanung 
+
+-5% bis +5% 
+
+-5,01% bis -15% 
+5,01% bis 15% 
+
+<= 4 Stunden 
+
+0 bis 4 
+
+4 bis 8 
+
+50% 
+
+-5% bis +5% 
+
+-5,01% bis -15% 
+5,01% bis 15% 
+
+> -15% 
+> +15% 
+
+> 10 
+
+> -15% 
+> +15% 
+
+> 8 
+
+> -15% 
+> +15% 
+
+Die zur Überprüfung der IT-Strategie definierten Kennzahlen werden regelmäßig gemessen und 
+kontinuierlich weiterentwickelt. 
+
+*         = BHW spezifische Kennzahl       ** Der Zielwert definiert den „grünen“ Bereich. 
+
+BHW Bausparkasse AG  
+
+Seite 67 
+
+11 
+
+Die für BHW wesentlichen Risiken wurden mit Kenn-
+zahlen ausgestattet, für die Schwellwerte / Toleranzen 
+entwickelt wurden 
+
+IT strategische KPI 
+
+Strategische 
+Dimension 
+
+Kategorie 
+
+* 
+
+IT 
+
+Zielwert ** 
+
+grün 
+
+gelb 
+
+rot 
+
+Stabilität (Qualität) 
+
+Anzahl 
+Prio 1/2 Störungen 
+
+<= 18 Stück 
+
+0 bis 18 
+
+18 bis 25 
+
+Stabil & 
+
+Nachhaltig 
+
+Risiko 
+(Reg. / OpRisk) 
+
+Anz. Ø offener Monita PBS 
+
+<= 20 Stück 
+
+0 bis 20 
+
+21 bis 30 
+
+> 25 
+
+> 30 
+
+„Wir machen 
+
+das 
+
+zusammen!“ 
+
+Auslastung 
+
+Weiterbildung/ 
+Knowledge 
+
+Alter 
+
+Gesundheitsquote PBS 
+
+>= 95% 
+
+100 bis 95 
+
+94,99 bis 90 
+
+< 90 
+
+Anteil Weiterbildung an 
+Solltagen 
+Durchschnittsalter der PBS 
+Mitarbeiter 
+
+46,2 
+
+ bis 48,5 
+
+48,6 bis 53,1 
+
+über 53,1 
+
+Die zur Überprüfung der IT-Strategie definierten Kennzahlen werden regelmäßig gemessen und 
+kontinuierlich weiterentwickelt. 
+
+*         = BHW spezifische Kennzahl       ** Der Zielwert definiert den „grünen“ Bereich. 
+
+BHW Bausparkasse AG  
+
+Seite 68 
+
+Agenda 
+
+1 
+
+2 
+
+3 
+
+Präambel 
+
+Überleitung zur bisherigen Strategie 
+
+Rahmenbedingungen – Einordnung der Strategie in die Rahmenbedingungen 
+
+4  Geschäftsstrategie der BHW 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+Vision / Mission IT  
+
+Eckpfeiler und Leitsätze der IT-Strategie  
+
+Zielbild – Services und Leistungsumfang 
+
+Zielbild – Architektur 
+
+Zielbild – Organisation 
+
+Zielbild – Governance  
+
+Kennzahlen (KPIs)  
+
+IT-Strategieprozess 
+
+BHW Bausparkasse AG 
+
+Seite 69 
+
+12 
+
+Die jährliche Aktualisierung der BHW Geschäfts-
+strategie wird durch die Konzernentwicklung gesteuert 
+
+Ablauf der Aktualisierung 
+
+ 
+
+ 
+
+G
+N
+U
+N
+A
+L
+P
+E
+H
+C
+L
+T
+E
+Z
+
+I
+
+I
+
+Kick-Off zum 
+regelmäßigen 
+Strategie - Update 
+
+BHW 
+Vorstand 
+
+PBS  
+Vorstände 
+
+Experten- 
+gespräche 
+
+… … 
+
+Qualitätssicherung: 
+ 
+Durch Stakeholder  
+und inhaltlich 
+Verantwortliche 
+
+Gremien: 
+ 
+• BHW  VoSi 
+• BHW  AR 
+• PBS   VoSi 
+• PBS   AR 
+
+Basis 
+
+Überarbeitung für Version 2018 
+
+Konsolidierung 
+
+Verabschiedung 
+
+Anfang 2017  Mai             Juni           Juli           August         September          Oktober             November             Dezember 
+
+• Anforderungen für IT-Strategien 
+
+aus MaRisk AT 4.2: 
+− Vorhandensein 
+− Regelmäßige Überprüfung 
+− Nicht delegierbare Unterzeich-
+
+nung durch Vorstandsbeschluss 
+
+• Prozess zur jährlichen 
+
+Überarbeitung der BHW 
+Geschäftsstrategie sowie 
+Verabschiedung durch 
+Vorstand etabliert. 
+
+• Aktualisierung erfolgt ebenfalls für 
+
+ressourcenorientierte Teilstra-
+tegien der BHW Bausparkasse 
+AG (u.a. IT-Strategie). 
+
+Bei Verfeinerung des Update-
+Prozesses sind die Abhängig-
+keiten der Strategien unterein-
+ander zu berücksichtigen. 
+
+BHW Bausparkasse AG  
+
+Seite 70 
+
+12 
+
+In der jährlichen Aktualisierung der Geschäfts- und IT-
+Strategien ist ihre Verzahnung zu berücksichtigen 
+
+Abhängige Aktualisierung der jeweiligen Strategien1 
+
+Einarbeitung 
+
+Weitere Bearbeitung 
+
+Ableitung 
+
+Verabschiedung 
+
+alt 
+PB 
+GS 
+
+PB 
+GS 
+
+v1 
+
+Über- 
+arbei-
+tung 
+
+1 
+
+2 
+
+Konso- 
+lidie- 
+rung 
+
+PB 
+GS 
+
+v2 
+
+neu 
+PB 
+GS 
+
+3 
+
+Ablei-
+tung / 
+Verab- 
+schie-
+dung 
+
+Ab 
+Sep. 
+
+Ab 
+Dez. 
+
+Bis 
+Jan. 
+
+Postbank Gruppe IT-S 
+PB 
+
+PBS 
+
+BHW 
+
+alt 
+
+alt 
+BHW 
+GS 
+
+Postbank Gruppe IT-S 
+PB 
+
+PBS 
+
+BHW 
+
+v1 
+
+BHW 
+GS 
+
+v1 
+
+neu 
+BHW 
+GS 
+
+neu 
+
+Postbank Gruppe IT-S 
+PB 
+
+PBS 
+
+BHW 
+
+neu 
+PB 
+IT-S 
+
+neu 
+PBS 
+IT-S 
+
+neu 
+BHW 
+IT-S 
+
+Beschreibung 
+1 
+
+Überarbeitung der IT-Strategie der PB-Gruppe 
+samt Spezifika für PB, BHW, PBS: 
+• Auf Basis der Version der Vorperiode  
+• Berücksichtigung aktueller Trends, Markt-
+
+entwicklungen und Ergebnisse aus Management 
+Meetings COO 
+
+• Strategische Leitlinien aus neuer PB GS als 
+
+Impulsgeber 
+
+• Weiterentwicklung erfolgt federführend durch PBS 
+
+in enger Abstimmung mit  
+SRO-IT der PB und BHW 
+
+2 
+
+3 
+
+Konsolidierung und Finalisierung der PB 
+Geschäftsstrategie gesteuert durch KE: 
+• Weiterentwicklung IT-Strategie der PB-Gruppe 
+
+unter Berücksichtigung aktueller 
+Strategievorgaben2 durch PBS 
+
+• Vorabstimmung mit Stakeholdern in PB, BHW und 
+
+PBS  
+
+• Einlieferung konsolidierte IT-Strategie als Teil der 
+
+PB Geschäfts- und Risikostrategie 
+
+IT-Strategie der PB-Gruppe 
+
+Verabschiedung3 PB Geschäftsstrategie, und 
+kaskadierte Ableitung und Verabschiedung3 
+•
+• PB IT-Strategie 
+• BHW Geschäfts- und IT-Strategie 
+• PBS IT-Strategie 
+
+1 GS = Geschäftsstrategie, IT-S = IT-Strategie  
+2 Wird seitens KE zur Verfügung gestellt  
+3 Verabschiedung erfolgt durch jeweiliges Vorstandsteam der Legaleinheit 
+
+BHW Bausparkasse AG  
+
+Seite 71 
+
+Vielen Dank 
+
+
