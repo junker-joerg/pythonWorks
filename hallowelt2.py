@@ -26,4 +26,3 @@ class MK_CLASS(object):
 if __name__ == '__main__':
     a = 12
     main()
-    
